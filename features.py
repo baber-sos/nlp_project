@@ -23,7 +23,7 @@ data_dir = "./images"
 model_name = "resnet"
 
 # Number of classes in the dataset
-num_classes = 2
+num_classes = 512
 
 # Batch size for training (change depending on how much memory you have)
 batch_size = 16
@@ -63,6 +63,7 @@ def train_model(model, dataloaders, criterion, optimizer, num_epochs=1, is_incep
             for (inputs, labels), dir_paths in dataloaders[phase]:
                 frames = [x.split('/')[-1][:-4] for x in dir_paths[0]];
                 vid_name = dir_paths[0][0].split('/')[-2];
+                print(vid_name, frames);
                 if vid_name not in feature_dict:
                     feature_dict[vid_name] = dict();
 
@@ -230,9 +231,9 @@ class MyImageFolder(datasets.ImageFolder):
             self.imgs[index];
 
 # Create training and validation datasets
-image_datasets = {x: MyImageFolder(os.path.join(data_dir, x), data_transforms[x]) for x in ['train', 'val']}
+image_datasets = {x: MyImageFolder(os.path.join(data_dir, x), data_transforms[x]) for x in ['train']}
 # Create training and validation dataloaders
-dataloaders_dict = {x: torch.utils.data.DataLoader(image_datasets[x], batch_size=batch_size, shuffle=True, num_workers=4) for x in ['train', 'val']}
+dataloaders_dict = {x: torch.utils.data.DataLoader(image_datasets[x], batch_size=batch_size, shuffle=True, num_workers=4) for x in ['train']}
 
 # Detect if we have a GPU available
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
