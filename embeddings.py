@@ -9,7 +9,7 @@ import io
 import numbers
 import sklearn.feature_extraction.text
 import pickle
-
+from nltk.tokenize import word_tokenize
 
 # getting all videos' names
 videos = []
@@ -34,16 +34,37 @@ english_captions['NewID'] =  english_captions['NewID'].str.cat(english_captions[
 # get all the training data based on the ids on videos 
 trained = english_captions.loc[english_captions['NewID'].isin(videos)]
 
+def remove(my_str):
+    # define punctuation
+    punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
+    # To take input from the user
+    # my_str = input("Enter a string: ")
+    # remove punctuation from the string
+    no_punct = ""
+    for char in my_str:
+       if char not in punctuations:
+           no_punct = no_punct + char
+    return no_punct
+
+index_to_word = []
+data = english_captions['Description']
+data = data.str.lower()
+data = list(data)
+new = data
+words = []
+for item in new:
+    try:
+        words.append(word_tokenize(item))
+    except:
+        continue
+for item in words:
+    for word in item:
+        word = remove(word)
+        if word not in index_to_word:
+            index_to_word.append(word)
 
 
-### Getting all words for the Description 
-vectorizer = sklearn.feature_extraction.text.CountVectorizer(min_df=1,stop_words='english')
-X = vectorizer.fit_transform(trained['Description'])
-index_to_word = vectorizer.get_feature_names()
 word_to_index = {index_to_word[i]:i for i in range(len(index_to_word))}
-
-
-
 
 # Load Glove models
 
@@ -60,14 +81,18 @@ def loadGloveModel(gloveFile):
             model[word_to_index[word]] = embedding
             remaining_vocab.remove(word)
     print("Done.",len(model)," words loaded!")
+    
+    for key in word_to_index.keys():
+        idx = word_to_index[key]
+        if idx not in model.keys():
+            model[idx] = np.zeros(300)
+        
     return model
 
 
 
-model = loadGloveModel('./glove/glove.6B.300d.txt')
+model = loadGloveModel('./glove.6B.300d.txt')
 
-idx = word_to_index['chair']
-print(model[idx])
 
 # Save the embedding to a pickle file 
 f = open("embedding.pkl","wb")
@@ -77,3 +102,5 @@ pickle.dump(model,f)
 new = pickle.load(open('embedding.pkl','rb'))
 
 
+
+new[word_to_index['rading']]
