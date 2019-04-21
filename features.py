@@ -61,11 +61,17 @@ def train_model(model, dataloaders, criterion, optimizer, num_epochs=1, is_incep
 
             # Iterate over data.
             for (inputs, labels), dir_paths in dataloaders[phase]:
+                # print(dir_paths);
                 frames = [x.split('/')[-1][:-4] for x in dir_paths[0]];
-                vid_name = dir_paths[0][0].split('/')[-2];
-                print(vid_name, frames);
-                if vid_name not in feature_dict:
-                    feature_dict[vid_name] = dict();
+                vid_names = [x.split('/')[-2] for x in dir_paths[0]];
+                print(frames);
+                print(vid_names);
+                # print(frames)
+                # vid_name = dir_paths[0][0].split('/')[-2];
+                # print(vid_name, frames);
+                for vid_name in vid_names:
+                    if vid_name not in feature_dict:
+                        feature_dict[vid_name] = dict();
 
                 inputs = inputs.to(device);
                 labels = labels.to(device);
@@ -98,7 +104,7 @@ def train_model(model, dataloaders, criterion, optimizer, num_epochs=1, is_incep
                     #     optimizer.step()
                     # print(outputs.shape);
                     for (ix, frame_num) in enumerate(frames):
-                        feature_dict[vid_name][frame_num] = outputs[ix].tolist();
+                        feature_dict[vid_names[ix]][frame_num] = outputs[ix].tolist();
                 # statistics11
                 # running_loss += loss.item() * inputs.size(0)
                 # running_corrects += torch.sum(preds == labels.data)

@@ -3,7 +3,7 @@ import cv2
 import os
 
 # vid_dir = './example_set/';
-vid_dir = '/home/baber/YouTubeClips/';
+vid_dir = '../YouTubeClips/';
 vid_file = open('input');
 dest_dir = './images/train/';
 image_size = (224, 224);
