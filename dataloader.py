@@ -9,11 +9,17 @@ from nltk.tokenize import word_tokenize
 from collections import OrderedDict
 
 
-device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu");
+device = torch.device("cuda:2" if torch.cuda.is_available() else "cpu");
+dev_2 = torch.device("cuda:3" if torch.cuda.is_available() else "cpu");
 
 class custom_ds(data.Dataset):
-    def __init__(self, video_file, csv_path, emb_file, trainable=False):
+    def __init__(self, video_file, csv_path, emb_file, batch_size, \
+        temporal_file='temporal.json', motion_file='motion.json', trainable=False):
         super(custom_ds, self).__init__();
+        self.batch_size = batch_size;
+        self.temporal_file = temporal_file;
+        self.motion_file = motion_file;
+
         self.index_to_vid = []
         with open(video_file) as f:
             for i in f:
@@ -82,11 +88,11 @@ class custom_ds(data.Dataset):
         
         self.embeddings.load_state_dict({'weight' : torch.from_numpy(weights)});
         self.embeddings.weight.requires_grad = trainable;
-        print("Embedding Test: ", self.embeddings(torch.tensor([[0]])).shape);
-        with open('temporal.json') as temp_data:
+        # print("Embedding Test: ", self.embeddings(torch.tensor([[0]])).shape);
+        with open(self.temporal_file) as temp_data:
             temporal_features = json.load(temp_data);
         
-        with open('motion.json') as temp_data:
+        with open(self.motion_file) as temp_data:
             motion_features = json.load(temp_data);
         
         print("Done loading features from files!");
@@ -149,6 +155,7 @@ class custom_ds(data.Dataset):
         # print("len of all dps: ", len(self.trained));
         # print("Index: ", idx);
         video_name = self.trained['NewID'].iloc[idx] + '.avi';
+        # print("Video Name: ", video_name);
         caption = word_tokenize(self.trained['Description'].iloc[idx]);
         for i in range(len(caption)):
             caption[i] = self.remove(caption[i]);
@@ -157,11 +164,17 @@ class custom_ds(data.Dataset):
         seq_ind = torch.tensor([self.word_to_index[x] for x in caption]);
         difference = self.max_caption_len - len(seq_ind);
         vid_ind = self.vid_to_ix[video_name];
-        emb_zeros = torch.zeros(difference, self.embedding_dim);
-        target = torch.cat((seq_ind.clone(), torch.tensor([0 for i in range(difference)])));
-        return torch.cat((self.embeddings(seq_ind), emb_zeros)), self.temp_feat_matrix[vid_ind],\
+        emb_zeros = torch.tensor([]);
+        target = seq_ind.clone()
+        if self.batch_size > 1:
+            target = torch.cat((target, \
+                torch.tensor([self.word_to_index['<pad>'] for i in range(difference)])));
+            emb_zeros = torch.zeros(difference, self.embedding_dim);
+        ix_embeddings = torch.cat(((self.embeddings(seq_ind), emb_zeros)));
+        # del emb_zeros, seq_ind;
+        return ix_embeddings, self.temp_feat_matrix[vid_ind],\
             self.motion_feat_matrix[vid_ind], len(caption), self.temp_ix_to_len[vid_ind],\
-                self.motion_ix_to_len[vid_ind], target;
+                self.motion_ix_to_len[vid_ind], target, video_name;
 
 # if __name__ == '__main__':
 #     my_ds = custom_ds('input', 'video_corpus.csv', 'embedding.pkl');

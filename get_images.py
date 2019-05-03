@@ -3,9 +3,10 @@ import cv2
 import os
 
 # vid_dir = './example_set/';
-vid_dir = '../YouTubeClips/';
-vid_file = open('input');
-dest_dir = './images/train/';
+# vid_dir = '../YouTubeClips/';
+vid_dir = '/common/users/bk456/YouTubeClips/';
+vid_file = open('val_input');
+dest_dir = './val_images/train/';
 image_size = (224, 224);
 
 if __name__ == '__main__':

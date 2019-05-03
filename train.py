@@ -22,7 +22,7 @@ from dataloader import custom_ds
 
 # nltk.download('punkt');
 
-device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda:2" if torch.cuda.is_available() else "cpu");
 
 # # getting all videos' names
 # videos = []
@@ -88,7 +88,7 @@ device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
 
 
 print("Gonna Create the dataset!");
-video_ds = custom_ds('input', 'video_corpus.csv', 'embedding.pkl');
+video_ds = custom_ds('input', 'video_corpus.csv', 'embedding.pkl', batch_size=8);
 
 ##configurable params
 vocab_size = len(video_ds.word_to_index);
@@ -98,9 +98,10 @@ hidden_dim = 512;
 learn_rate = 10**(-4);
 dropout_prob = 0.5;
 percentage = 0.90;
-train_set = int(len(video_ds.trained) * percentage);
-val_set = len(video_ds.trained) - int(len(video_ds.trained) * percentage);
-epochs = 15;
+train_set = int(len(video_ds.trained));
+# train_set = train_set - (train_set % batch_size);
+# val_set = len(video_ds.trained) - train_set
+epochs = 5;
 
 pad_word = '<pad>';
 start_word = '<str>';
@@ -113,36 +114,83 @@ frame_attn_model = attention_compute(embedding_dim, 512, batch_size=batch_size).
 motion_attn_model = attention_compute(embedding_dim, 512, batch_size=batch_size).to(device);
 mmodel = multi_modal_layer(embedding_dim, 512, 512, hidden_dim, vocab_size, \
     batch_size=batch_size, dropout=dropout_prob).to(device);
-loss_fn = nn.NLLLoss(ignore_index=video_ds.word_to_index[pad_word])
-optimizer = optim.RMSprop([p for p in frame_attn_model.parameters()] + \
-    [p for p in motion_attn_model.parameters()] + [p for p in mmodel.parameters()] , lr=learn_rate);
+loss_fn = nn.NLLLoss(reduction='sum', ignore_index=video_ds.word_to_index[pad_word])
 
-train_loss_epoch = 0.0;
-val_loss_epoch = 0.0;
+# train_loss_epoch = 0.0;
+# val_loss_epoch = 0.0;
 
 if len(sys.argv) > 1 and sys.argv[1] == 'load':
     frame_attn_model.load_state_dict(torch.load("temporal_attention.pt"));
     motion_attn_model.load_state_dict(torch.load("motion_attention.pt"));
     mmodel.load_state_dict(torch.load("multi_modal_attention.pt"));
 
-out_file = open("loss_tracking.txt", "w");
+optimizer = optim.RMSprop([p for p in frame_attn_model.parameters()] + \
+    [p for p in motion_attn_model.parameters()] + [p for p in mmodel.parameters()] , lr=learn_rate);
+#out_file = open("loss_tracking.txt", "w");
 
 count = 0;
 
-for batch in data_loader:
-    sen_emb, temp_feats, mot_feats, seq_lens, temp_lens, mot_lens, targets = batch;
-    
-    attn_tfeat = frame_attn_model(sen_emb.to(device), temp_feats.to(device), temp_lens.to(device));
-    attn_mfeat = motion_attn_model(sen_emb.to(device), mot_feats.to(device), temp_lens.to(device));
-    prob_dist = mmodel(mot_feats.to(device), temp_feats.to(device), attn_mfeat, attn_tfeat, \
-        sen_emb.to(device), mot_lens, temp_lens, seq_lens);
+print("Training is about to start!");
+for epoch in range(epochs):
+    train_loss_epoch = 0.0;
+    val_loss_epoch = 0.0;
+    count = 0;
+    for batch in data_loader:
+        frame_attn_model.zero_grad();
+        motion_attn_model.zero_grad();
+        mmodel.zero_grad();
+        if count % 10 == 0:
+            print("-------------------------------------");
+            print("Train Loss till Now: ", train_loss_epoch);
+            print("Val Loss till Now: ", val_loss_epoch);
+            print("-------------------------------------");
+        
+        sen_emb, temp_feats, mot_feats, seq_lens, temp_lens, mot_lens, targets, _ = batch;
+        
+        max_slen = torch.max(seq_lens); 
+        max_tlen = torch.max(temp_lens); 
+        max_mlen = torch.max(mot_lens);
+
+        batch_emb = sen_emb[:, :max_slen].to(device); 
+        batch_temp = temp_feats[:, :max_tlen].to(device); 
+        batch_mot = mot_feats[:, :max_mlen].to(device);
 
 
-    # print("Attention Applied Shape: ", attn_tfeat.shape);
-    # print("Attention Applied Gradient: ", attn_tfeat.requires_grad);
-    break;
+        targets = targets[:, :max_slen].to(device);
+        print("Start of the Iteration %d" % count);
+        with torch.set_grad_enabled(count < train_set):
+            attn_tfeat = frame_attn_model(batch_emb, batch_temp, temp_lens.to(device));
+            attn_mfeat = motion_attn_model(batch_emb, batch_mot, mot_lens.to(device));
+            prob_dist = mmodel(batch_mot, batch_temp, attn_mfeat, attn_tfeat, \
+                batch_emb, mot_lens.to(device), temp_lens.to(device), seq_lens.to(device));
+            targets = targets.contiguous();
+            targets = targets.view(-1);
+            prob_dist = prob_dist.view(-1, vocab_size);
+            
+            batch_loss = loss_fn(prob_dist, targets);
 
-exit(0);
+        if count < train_set:
+            train_loss_epoch += batch_loss.data;
+            batch_loss /= batch_size;
+            batch_loss.backward();
+            optimizer.step();
+        else:
+            val_loss_epoch += batch_loss.data;
+        del batch_loss, prob_dist;
+        count += batch_size;
+        print("End of Iteration!");
+    torch.save(frame_attn_model.state_dict(), "temporal_attention.pt");
+    torch.save(motion_attn_model.state_dict(), "motion_attention.pt");
+    torch.save(mmodel.state_dict(), "multi_modal_attention.pt");
+    print("Train loss for Epoch %d is %.3f" % (epoch + 1, train_loss_epoch/train_set));
+    # print("Validation loss for Epoch %d is %.3f" % (epoch + 1, val_loss_epoch/val_set));
+    print("*************************");
+    out_file = open("loss_tracking.txt", 'a');
+    out_file.write("Train Loss for Epoch %d: %f\n" % (epoch + 1, train_loss_epoch/train_set));
+    # out_file.write("Validation Loss for Epoch %d: %f\n" % (epoch + 1, val_loss_epoch/val_set));
+    out_file.write("--------------\n");
+    out_file.close();
+
 # print("Total Number of Entries: ", len(trained));
 # print("train set: %d interations: %d", train_set, train_set/batch_size);
 # print("Gonna Start Training!");

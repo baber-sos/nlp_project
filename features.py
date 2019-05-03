@@ -17,7 +17,7 @@ print("Torchvision Version: ",torchvision.__version__)
 # Top level data directory. Here we assume the format of the directory conforms
 #   to the ImageFolder structure
 ##I will change this
-data_dir = "./images"
+data_dir = "./val_images"
 
 # Models to choose from [resnet, alexnet, vgg, squeezenet, densenet, inception]
 model_name = "resnet"
@@ -122,7 +122,7 @@ def train_model(model, dataloaders, criterion, optimizer, num_epochs=1, is_incep
             #     val_acc_history.append(epoch_acc)
 
         # print()
-    with open("temporal.json", 'w') as fd:
+    with open("val_temporal.json", 'w') as fd:
         json.dump(feature_dict, fd);
     # time_elapsed = time.time() - since
     # print('Training complete in {:.0f}m {:.0f}s'.format(time_elapsed // 60, time_elapsed % 60))
@@ -242,7 +242,7 @@ image_datasets = {x: MyImageFolder(os.path.join(data_dir, x), data_transforms[x]
 dataloaders_dict = {x: torch.utils.data.DataLoader(image_datasets[x], batch_size=batch_size, shuffle=True, num_workers=4) for x in ['train']}
 
 # Detect if we have a GPU available
-device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda:3" if torch.cuda.is_available() else "cpu")
 
 # Send the model to GPU
 model_ft = model_ft.to(device)

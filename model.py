@@ -1,7 +1,10 @@
 import torch
 import torch.nn as nn
+# from torch.nn.utils.rnn import pack_padded_sequence
+# from torch.nn.utils.rnn import pad_packed_sequence
+# from torch.nn.utils.rnn import PackedSequence
 
-device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu");
+device = torch.device("cuda:2" if torch.cuda.is_available() else "cpu");
 
 class attention_compute(nn.Module):
     def __init__(self, embedding_dim, feature_dim, batch_size=1):
@@ -28,6 +31,7 @@ class attention_compute(nn.Module):
             score_vec = torch.cat((score_vec, score));
         attn_weights = nn.functional.softmax(score_vec.view(-1), dim=0).view(-1, 1);
         result = (attn_weights * video.view(1, video.shape[0], -1)).view(video.shape[0], -1).sum(dim=0);
+        # del attn_weights, score_vec;
         return result;
     
 class multi_modal_layer(nn.Module):
@@ -58,10 +62,12 @@ class multi_modal_layer(nn.Module):
 
     def forward(self, mfeat, tfeat, att_motion, att_tempo, embeddings, \
         motion_batch_lens, temp_batch_lens, seq_batch_lens):
+
+
         temp_mout = self.inter_motion(att_motion);
         temp_tout = self.inter_temporal(att_tempo);
         mout_weights = nn.functional.softmax(temp_mout, dim=len(temp_mout.shape) - 1);
-        tout_weights = nn.functional.softmax(temp_mout, dim=len(temp_tout.shape) - 1);
+        tout_weights = nn.functional.softmax(temp_tout, dim=len(temp_tout.shape) - 1);
         temp_mout = temp_mout * mout_weights;
         temp_tout = temp_tout * tout_weights;
 
@@ -70,16 +76,20 @@ class multi_modal_layer(nn.Module):
         multi_modal_out = self.multi_modal(multi_modal_inp);
         pooling_layer = nn.AvgPool2d(self.kernel_size);
         mean_feat = torch.cat(( pooling_layer(att_tempo), pooling_layer(att_motion)), dim=2);
+
         m_0 = self.lstm_init(mean_feat);
         _, init_hidden = self.lang_layer(m_0, \
             (torch.zeros(1, att_motion.shape[0], self.hdim).to(device), \
             torch.zeros(1, att_motion.shape[0], self.hdim).to(device)));
         out, _ = self.lang_layer(multi_modal_out, init_hidden);
         act_out = self.lstm_activ(out);
+        
         att_motion_2 = self.mh_attention(act_out, mfeat, motion_batch_lens);
         att_tempo_2 = self.th_attention(act_out, tfeat, temp_batch_lens);
         final_out = self.multi_modal_2(self.drop_layer(torch.cat((act_out, att_tempo_2, att_motion_2), \
             dim=2)));
         prob_dist = nn.functional.log_softmax(final_out, dim=2);
+
+        # del temp_mout, mout_weights, tout_weights, 
         return prob_dist;
 
