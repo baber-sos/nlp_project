@@ -42,20 +42,31 @@ count = 0;
 
 max_seqlen = 20;
 
-count = 0;
+#count = 0;
 #cost, next state, tracker, previous
-state_queue = [(0, count, str_ix, [0])]
-heapq.heapify(state_queue);
-visited = [];
-beam_size = 5;
+
+print("Predicted,Actual,Video_Name")
 
 for batch in data_loader:
+    state_queue = [(0, count, str_ix, [0])]
+    heapq.heapify(state_queue);
+    visited = [];
+    beam_size = 5;
     frame_attn_model.zero_grad();
     motion_attn_model.zero_grad();
     mmodel.zero_grad();
     
     _, temp_feats, mot_feats, seq_lens, temp_lens, mot_lens, targets, vid_name = batch;
-    print("Video Name: ", vid_name);
+    #print("Video Name: ", vid_name);
+    act_cap = "";
+    for i in targets.view(-1):
+        if int(i) == prediction_set.word_to_index['<pad>']:
+            continue;
+        if int(i) == prediction_set.word_to_index['<sos>']:
+            continue;
+        if int(i) == prediction_set.word_to_index['<eos>']:
+            continue;
+        act_cap = act_cap + ' ' + prediction_set.index_to_word[int(i)];
     max_slen = torch.max(seq_lens);
     max_tlen = torch.max(temp_lens);
     max_mlen = torch.max(mot_lens);
@@ -65,18 +76,18 @@ for batch in data_loader:
     while len(state_queue) > 0:
         cur_state = heapq.heappop(state_queue);
 
-        if cur_state[1] == prediction_set.word_to_index["<eos>"]:
-            break;
-        elif len(cur_state[-1]) > 20:
+        #if cur_state[2] == prediction_set.word_to_index["<eos>"]:
+        #    break;
+        if len(cur_state[3]) > 15:
             break;
 
-        visited.append(cur_state[1]);
+        visited.append(cur_state[2]);
         # print("Cur Index and Word: ", prediction_set.index_to_word[cur_state[2]]);
-        seq_start = torch.tensor([cur_state[1]], dtype=torch.long);
+        seq_start = torch.tensor([cur_state[2]], dtype=torch.long);
 
         batch_emb = prediction_set.embeddings(seq_start).view(batch_size, 1, embedding_dim).to(device);
 
-        print("Start of the Iteration %d" % count);
+        #print("Start of the Iteration %d" % count);
         with torch.set_grad_enabled(False):
             attn_tfeat = frame_attn_model(batch_emb, batch_temp, temp_lens.to(device));
             attn_mfeat = motion_attn_model(batch_emb, batch_mot, mot_lens.to(device));
@@ -93,13 +104,18 @@ for batch in data_loader:
             if int(nstate) in visited:
                 continue;
             count += 1;
-            cur_state[3].append(nstate);
+            tnpath = copy.deepcopy(cur_state[3]);
+            tnpath.append(nstate);
             est_cost = -float(cur_state[0] + ncost);
-            state_queue.append( (est_cost, count, nstate, \
-                copy.deepcopy(cur_state[3]) ) );
-
-    print(" ".join([prediction_set.index_to_word[i] for i in cur_state[3]]));
-    break;
+            state_queue.append( (est_cost, count, nstate, tnpath) );
+    predicted_ind = cur_state[3];
+    if cur_state[3][-1] == prediction_set.word_to_index['<eos>']:
+        #print("End of Sentence detected!")
+        predicted_ind = cur_state[3][:-1];
+    predicted = " ".join([prediction_set.index_to_word[i] for i in predicted_ind]);
+    print(predicted + "," + act_cap + "," + str(vid_name[0]));
+    #print("Actual: ", act_cap[1:-1]);
+    #break;
     # print("End of Iteration!");
 
 print("Average Loss: ", val_loss_epoch/val_set);
