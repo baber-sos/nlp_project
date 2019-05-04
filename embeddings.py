@@ -9,6 +9,7 @@ import io
 import numbers
 import sklearn.feature_extraction.text
 import pickle
+import nltk
 from nltk.tokenize import word_tokenize
 from collections import OrderedDict
 
@@ -45,18 +46,19 @@ data = english_captions['Description']
 data = data.str.lower()
 data = list(data)
 new = data
-
+nltk.download('punkt');
 print(len(trained));
 words = [];
 for item in new:
     try:
+        #print(word_tokeniz)
         words += (word_tokenize(item))
     except:
         continue;
 
 for i in range(len(words)):
     words[i] = remove(words[i]);
-
+print(len(words))
     
 index_to_word = list(OrderedDict.fromkeys(words));
 index_to_word.append("<sos>");
