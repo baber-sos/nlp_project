@@ -76,10 +76,10 @@ for batch in data_loader:
     while len(state_queue) > 0:
         cur_state = heapq.heappop(state_queue);
 
-        #if cur_state[2] == prediction_set.word_to_index["<eos>"]:
-        #    break;
-        if len(cur_state[3]) > 15:
+        if cur_state[2] == prediction_set.word_to_index["<eos>"]:
             break;
+        #elif len(cur_state[3]) > 15:
+        #    break;
 
         visited.append(cur_state[2]);
         # print("Cur Index and Word: ", prediction_set.index_to_word[cur_state[2]]);
@@ -107,7 +107,7 @@ for batch in data_loader:
             tnpath = copy.deepcopy(cur_state[3]);
             tnpath.append(nstate);
             est_cost = -float(cur_state[0] + ncost);
-            state_queue.append( (est_cost, count, nstate, tnpath) );
+            heapq.heappush(state_queue, (est_cost, count, nstate, tnpath) );
     predicted_ind = cur_state[3];
     if cur_state[3][-1] == prediction_set.word_to_index['<eos>']:
         #print("End of Sentence detected!")
