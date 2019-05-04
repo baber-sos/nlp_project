@@ -90,18 +90,22 @@ def loadGloveModel(gloveFile):
         
     return model;
 
-model = loadGloveModel('../glove.6B.300d.txt')
+#model = loadGloveModel('../glove.6B.300d.txt')
 
-print("Model Length: ", len(model));
+#print("Model Length: ", len(model));
 # print(index_to_word)
-model[word_to_index['<pad>']] = np.zeros((300));
-word_to_index['chili'];
-print(word_to_index['chili']);
+#model[word_to_index['<pad>']] = np.zeros((300));
+#word_to_index['chili'];
+#print(word_to_index['chili']);
 
 # # Save the embedding to a pickle file 
-f = open("embedding.pkl","wb")
-pickle.dump(model,f)
+#f = open("embedding.pkl","wb")
+#pickle.dump(model,f)
+#f.close();
 
+f = open('vocab.pkl', 'wb');
+pickle.dump(word_to_index, f);
+f.close();
 
 # new = pickle.load(open('embedding.pkl','rb'))
 
