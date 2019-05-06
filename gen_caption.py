@@ -57,7 +57,7 @@ for batch in data_loader:
     mmodel.zero_grad();
     
     _, temp_feats, mot_feats, seq_lens, temp_lens, mot_lens, targets, vid_name = batch;
-    #print("Video Name: ", vid_name);
+    print("Video Name: ", vid_name);
     act_cap = "";
     for i in targets.view(-1):
         if int(i) == prediction_set.word_to_index['<pad>']:
@@ -67,6 +67,9 @@ for batch in data_loader:
         if int(i) == prediction_set.word_to_index['<eos>']:
             continue;
         act_cap = act_cap + ' ' + prediction_set.index_to_word[int(i)];
+    print("Actual Caption: ", act_cap);
+    continue;
+    #exit();
     max_slen = torch.max(seq_lens);
     max_tlen = torch.max(temp_lens);
     max_mlen = torch.max(mot_lens);
