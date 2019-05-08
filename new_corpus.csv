@@ -1,0 +1,932 @@
+,VideoID,Start,End,WorkerID,Source,AnnotationTime,Language,Description,NewID
+18,mv89psg6zh4,33,46,682611,clean,66,English,A bird in a sink keeps getting under the running water from a faucet.,mv89psg6zh4_33_46
+19,mv89psg6zh4,33,46,760882,clean,16,English,A bird is bathing in a sink.,mv89psg6zh4_33_46
+20,mv89psg6zh4,33,46,878566,clean,76,English,A bird is splashing around under a running faucet.,mv89psg6zh4_33_46
+21,mv89psg6zh4,33,46,707318,clean,14,English,A bird is bathing in a sink.,mv89psg6zh4_33_46
+22,mv89psg6zh4,33,46,135621,clean,58,English,A bird is standing in a sink drinking water that is pouring out of the facet.,mv89psg6zh4_33_46
+23,mv89psg6zh4,33,46,257511,clean,57,English,A faucet is running while a bird stands in the sink below.,mv89psg6zh4_33_46
+24,mv89psg6zh4,33,46,435773,clean,25,English,A bird is playing in a sink with running water.,mv89psg6zh4_33_46
+25,mv89psg6zh4,33,46,275759,clean,27,English,A bird is playing in tap water.,mv89psg6zh4_33_46
+26,mv89psg6zh4,33,46,157374,clean,30,English,A bird is bathing in the sink.,mv89psg6zh4_33_46
+27,mv89psg6zh4,33,46,373663,clean,36,English,A bird is taking a bath.,mv89psg6zh4_33_46
+28,mv89psg6zh4,33,46,155632,clean,47,English,A bird is taking a shower in a sink.,mv89psg6zh4_33_46
+29,mv89psg6zh4,33,46,617730,clean,27,English,A bird is showering in the sink.,mv89psg6zh4_33_46
+30,mv89psg6zh4,33,46,762891,clean,23,English,The bird is taking a bath under the faucet.,mv89psg6zh4_33_46
+31,mv89psg6zh4,33,46,675312,clean,165,English,A parakeet is taking a shower in a sink.,mv89psg6zh4_33_46
+32,mv89psg6zh4,33,46,807872,clean,31,English,A bird gets washed.,mv89psg6zh4_33_46
+33,mv89psg6zh4,33,46,625932,clean,28,English,A bird is having a bath in the kitchen sink.,mv89psg6zh4_33_46
+34,mv89psg6zh4,33,46,585381,clean,135,English,A bird is bathing in a sink under running water.,mv89psg6zh4_33_46
+35,mv89psg6zh4,33,46,965612,unverified,43,English,the bird is drinking water,mv89psg6zh4_33_46
+36,mv89psg6zh4,33,46,906649,unverified,39,English,A bird walks under a running tap in a sink.,mv89psg6zh4_33_46
+37,mv89psg6zh4,33,46,318570,unverified,227,English,a parrot is playing inside the wash basin.,mv89psg6zh4_33_46
+38,mv89psg6zh4,33,46,171815,unverified,79,English,a bird in a sink n playing with water,mv89psg6zh4_33_46
+39,mv89psg6zh4,33,46,741585,unverified,26,English,A bird is playing in a sink.,mv89psg6zh4_33_46
+40,mv89psg6zh4,33,46,120123,unverified,74,English,A cockatiel in a kitchen sink playing under the running water.,mv89psg6zh4_33_46
+41,mv89psg6zh4,33,46,617730,unverified,14,English,A bird is taking a bath in a sink.,mv89psg6zh4_33_46
+42,mv89psg6zh4,33,46,394339,unverified,177,English,A bird  is playing in the sink.,mv89psg6zh4_33_46
+43,mv89psg6zh4,33,46,309959,unverified,22,English,The white birt took a bath in the sink.,mv89psg6zh4_33_46
+44,mv89psg6zh4,33,46,130040,unverified,21,English,a bird is playing,mv89psg6zh4_33_46
+45,mv89psg6zh4,33,46,762891,unverified,15,English,The bird is taking a bath in the sink.,mv89psg6zh4_33_46
+46,mv89psg6zh4,33,46,501877,unverified,29,English,A bird is drinking out of the sink.,mv89psg6zh4_33_46
+56,ZbzDGXEwtGc,6,15,550906,clean,24,English,a plane flying in the sky,ZbzDGXEwtGc_6_15
+57,ZbzDGXEwtGc,6,15,164462,clean,42,English,A commercial plane flying.,ZbzDGXEwtGc_6_15
+58,ZbzDGXEwtGc,6,15,155632,clean,51,English,A jet is flying.,ZbzDGXEwtGc_6_15
+59,ZbzDGXEwtGc,6,15,617730,clean,27,English,A large jet is flying through the sky.,ZbzDGXEwtGc_6_15
+60,ZbzDGXEwtGc,6,15,297776,clean,28,English,A passenger plane flies through the air.,ZbzDGXEwtGc_6_15
+61,ZbzDGXEwtGc,6,15,807872,clean,17,English,A plane flies through the air.,ZbzDGXEwtGc_6_15
+62,ZbzDGXEwtGc,6,15,825347,clean,11,English,A plane is flying in the air.,ZbzDGXEwtGc_6_15
+63,ZbzDGXEwtGc,6,15,922727,clean,18,English,A plane is flying.,ZbzDGXEwtGc_6_15
+64,ZbzDGXEwtGc,6,15,878566,clean,35,English,A South African Airways plane is flying in a blue sky.,ZbzDGXEwtGc_6_15
+65,ZbzDGXEwtGc,6,15,615204,clean,39,English,An aeroplane is flying in the air.,ZbzDGXEwtGc_6_15
+66,ZbzDGXEwtGc,6,15,280252,clean,41,English,An airplane is flying in the air.,ZbzDGXEwtGc_6_15
+67,ZbzDGXEwtGc,6,15,374994,clean,30,English,An airplane is flying in the clear sky.,ZbzDGXEwtGc_6_15
+68,ZbzDGXEwtGc,6,15,772960,clean,72,English,An airplane is flying in the sky.,ZbzDGXEwtGc_6_15
+69,ZbzDGXEwtGc,6,15,760882,clean,19,English,An airplane is flying.,ZbzDGXEwtGc_6_15
+70,ZbzDGXEwtGc,6,15,275759,clean,43,English,An airplane is flying.,ZbzDGXEwtGc_6_15
+71,ZbzDGXEwtGc,6,15,553931,clean,22,English,The plane flew in the sky.,ZbzDGXEwtGc_6_15
+72,ZbzDGXEwtGc,6,15,762891,clean,25,English,The plane is soaring through the air.,ZbzDGXEwtGc_6_15
+73,ZbzDGXEwtGc,6,15,309959,clean,24,English,The South African jet banked itself in the air.,ZbzDGXEwtGc_6_15
+74,ZbzDGXEwtGc,6,15,965612,unverified,86,English,The airplane is flying in air,ZbzDGXEwtGc_6_15
+75,ZbzDGXEwtGc,6,15,799001,unverified,27,English,An airplane flying.,ZbzDGXEwtGc_6_15
+76,ZbzDGXEwtGc,6,15,521022,unverified,42,English,A South African airplane flying sideways in the sky.,ZbzDGXEwtGc_6_15
+77,ZbzDGXEwtGc,6,15,807741,unverified,224,English,"the Avión, airplane is flying high in the sky.",ZbzDGXEwtGc_6_15
+78,ZbzDGXEwtGc,6,15,707318,unverified,11,English,A plane is flying.,ZbzDGXEwtGc_6_15
+79,ZbzDGXEwtGc,6,15,318570,unverified,155,English,An aeroplane flying in the sky.,ZbzDGXEwtGc_6_15
+80,ZbzDGXEwtGc,6,15,403763,unverified,103,English,An aeroplane is flying.,ZbzDGXEwtGc_6_15
+81,ZbzDGXEwtGc,6,15,829808,unverified,50,English,An aeroplane is flying.,ZbzDGXEwtGc_6_15
+82,ZbzDGXEwtGc,6,15,371782,unverified,208,English,A flight is flying in the sky.,ZbzDGXEwtGc_6_15
+83,ZbzDGXEwtGc,6,15,418656,unverified,69,English,A South African flight is flying.,ZbzDGXEwtGc_6_15
+84,ZbzDGXEwtGc,6,15,257511,unverified,59,English,An airplane is flying with blue sky in the background.,ZbzDGXEwtGc_6_15
+85,ZbzDGXEwtGc,6,15,497691,unverified,50,English,AEROPLANE IS FLING IN MID-AIR.,ZbzDGXEwtGc_6_15
+86,ZbzDGXEwtGc,6,15,741585,unverified,20,English,An Airplane is flying in the air.,ZbzDGXEwtGc_6_15
+87,ZbzDGXEwtGc,6,15,553878,unverified,312,English,South African aeroplane js moving in the air,ZbzDGXEwtGc_6_15
+88,ZbzDGXEwtGc,6,15,599728,unverified,157,English,a plane is flying in air,ZbzDGXEwtGc_6_15
+89,ZbzDGXEwtGc,6,15,373663,unverified,68,English,A commercial jet if flying,ZbzDGXEwtGc_6_15
+90,ZbzDGXEwtGc,6,15,919506,unverified,37,English,an airplane flying in the sky.,ZbzDGXEwtGc_6_15
+91,ZbzDGXEwtGc,6,15,705358,unverified,54,English,An airoplane is flying in the sky,ZbzDGXEwtGc_6_15
+92,ZbzDGXEwtGc,6,15,169072,unverified,83,English,A flight is flying.,ZbzDGXEwtGc_6_15
+93,ZbzDGXEwtGc,6,15,467982,unverified,79,English,A clip showing an south african airline plane flying in air.,ZbzDGXEwtGc_6_15
+94,ZbzDGXEwtGc,6,15,776761,unverified,37,English,A South African airplane is flying.,ZbzDGXEwtGc_6_15
+95,ZbzDGXEwtGc,6,15,394339,unverified,311,English,an airplane flying in the sky,ZbzDGXEwtGc_6_15
+96,ZbzDGXEwtGc,6,15,948158,unverified,35,English,An airplane is flying through the air.,ZbzDGXEwtGc_6_15
+97,ZbzDGXEwtGc,6,15,408179,unverified,18,English,An airplane is flying.,ZbzDGXEwtGc_6_15
+98,ZbzDGXEwtGc,6,15,974128,unverified,110,English,An plane is flying in the sky.,ZbzDGXEwtGc_6_15
+99,ZbzDGXEwtGc,6,15,130040,unverified,30,English,a flying airplane,ZbzDGXEwtGc_6_15
+100,ZbzDGXEwtGc,6,15,977945,unverified,261,English,A airplane in the air,ZbzDGXEwtGc_6_15
+101,ZbzDGXEwtGc,6,15,279187,unverified,157,English,A south american plane takes a turn in air.,ZbzDGXEwtGc_6_15
+102,ZbzDGXEwtGc,6,15,762891,unverified,16,English,The plane is soaring through the air.,ZbzDGXEwtGc_6_15
+103,ZbzDGXEwtGc,6,15,566596,unverified,103,English,An avion airoplane is flying,ZbzDGXEwtGc_6_15
+104,ZbzDGXEwtGc,6,15,750723,unverified,61,English,a aeroplane is flying,ZbzDGXEwtGc_6_15
+105,ZbzDGXEwtGc,6,15,963466,unverified,68,English,A plain is fly in the sky.,ZbzDGXEwtGc_6_15
+106,ZbzDGXEwtGc,6,15,857450,unverified,53,English,Avion airplane,ZbzDGXEwtGc_6_15
+115,g36ho6UrBz0,5,20,550906,clean,28,English,a man playing a guitar outside his house,g36ho6UrBz0_5_20
+116,g36ho6UrBz0,5,20,625932,clean,37,English,A man is playing a guitar on the patio.,g36ho6UrBz0_5_20
+117,g36ho6UrBz0,5,20,772960,clean,139,English,A man is playing a guitar seated outside a restaurant.,g36ho6UrBz0_5_20
+118,g36ho6UrBz0,5,20,135621,clean,143,English,A man is playing a guitar while sitting down.,g36ho6UrBz0_5_20
+119,g36ho6UrBz0,5,20,280252,clean,33,English,A man is playing a guitar.,g36ho6UrBz0_5_20
+120,g36ho6UrBz0,5,20,922727,clean,20,English,A man is playing a guitar.,g36ho6UrBz0_5_20
+121,g36ho6UrBz0,5,20,257003,clean,106,English,A man is playing a guitar.,g36ho6UrBz0_5_20
+122,g36ho6UrBz0,5,20,135141,clean,53,English,A man is playing an acoustic guitar outdoors.,g36ho6UrBz0_5_20
+123,g36ho6UrBz0,5,20,888508,clean,28,English,A man is playing guitar.,g36ho6UrBz0_5_20
+124,g36ho6UrBz0,5,20,155632,clean,25,English,A man is playing the guitar.,g36ho6UrBz0_5_20
+125,g36ho6UrBz0,5,20,297776,clean,46,English,A man plays a guitar.,g36ho6UrBz0_5_20
+126,g36ho6UrBz0,5,20,215924,clean,224,English,A man plays guitar.,g36ho6UrBz0_5_20
+127,g36ho6UrBz0,5,20,275759,clean,49,English,A person is performing with his guitar.,g36ho6UrBz0_5_20
+128,g36ho6UrBz0,5,20,147492,clean,44,English,A seated man plays guitar.,g36ho6UrBz0_5_20
+129,g36ho6UrBz0,5,20,374994,clean,25,English,A sitting man is playing guitar.,g36ho6UrBz0_5_20
+130,g36ho6UrBz0,5,20,762891,clean,35,English,The man is playing the guitar.,g36ho6UrBz0_5_20
+131,g36ho6UrBz0,5,20,553931,clean,20,English,The man is plying his guitar on the patio.,g36ho6UrBz0_5_20
+132,g36ho6UrBz0,5,20,309959,clean,24,English,The man played his guitar.,g36ho6UrBz0_5_20
+133,g36ho6UrBz0,5,20,668575,unverified,53,English,A man is playing an electric guitar.,g36ho6UrBz0_5_20
+134,g36ho6UrBz0,5,20,395870,unverified,57,English,A man is playing guitar.,g36ho6UrBz0_5_20
+135,g36ho6UrBz0,5,20,471930,unverified,48,English,A man is playing guitar outside of a store.,g36ho6UrBz0_5_20
+136,g36ho6UrBz0,5,20,411294,unverified,24,English,The man is playing the guitar.,g36ho6UrBz0_5_20
+137,g36ho6UrBz0,5,20,651813,unverified,19,English,A man is playing a guitar.,g36ho6UrBz0_5_20
+138,g36ho6UrBz0,5,20,682611,unverified,61,English,A man is playing a guitar.,g36ho6UrBz0_5_20
+139,g36ho6UrBz0,5,20,760882,unverified,13,English,A man plays a guitar.,g36ho6UrBz0_5_20
+140,g36ho6UrBz0,5,20,696912,unverified,82,English,The man is playing music on a guitar sitting on a stool.,g36ho6UrBz0_5_20
+141,g36ho6UrBz0,5,20,252681,unverified,19,English,A man is playing guitar.,g36ho6UrBz0_5_20
+142,g36ho6UrBz0,5,20,394758,unverified,48,English,a man playing guitar,g36ho6UrBz0_5_20
+143,g36ho6UrBz0,5,20,132126,unverified,69,English,A man playing an instrument.,g36ho6UrBz0_5_20
+144,g36ho6UrBz0,5,20,134458,unverified,203,English,A man is playing  music through Fiddle,g36ho6UrBz0_5_20
+145,g36ho6UrBz0,5,20,339451,unverified,60,English,A man is playing the guitar.,g36ho6UrBz0_5_20
+146,g36ho6UrBz0,5,20,371782,unverified,109,English,A man playing guitar.,g36ho6UrBz0_5_20
+147,g36ho6UrBz0,5,20,584478,unverified,18,English,A man playing the guitar.,g36ho6UrBz0_5_20
+148,g36ho6UrBz0,5,20,418656,unverified,67,English,An old man is playing guitar.,g36ho6UrBz0_5_20
+149,g36ho6UrBz0,5,20,502429,unverified,44,English,A man is playing a guitar.,g36ho6UrBz0_5_20
+150,g36ho6UrBz0,5,20,435773,unverified,12,English,A man is playing a guitar.,g36ho6UrBz0_5_20
+151,g36ho6UrBz0,5,20,922727,unverified,22,English,A man is playing a guitar outside.,g36ho6UrBz0_5_20
+152,g36ho6UrBz0,5,20,157374,unverified,42,English,A man is enjoying himself as he plays the guitar.,g36ho6UrBz0_5_20
+153,g36ho6UrBz0,5,20,599728,unverified,60,English,A person is playing guitar righ now,g36ho6UrBz0_5_20
+154,g36ho6UrBz0,5,20,765277,unverified,50,English,A man playing electric gutar at a party.,g36ho6UrBz0_5_20
+155,g36ho6UrBz0,5,20,120123,unverified,42,English,A man playing his electric guitar at a home party outside.,g36ho6UrBz0_5_20
+156,g36ho6UrBz0,5,20,309415,unverified,19,English,a man playing a guitar,g36ho6UrBz0_5_20
+157,g36ho6UrBz0,5,20,844963,unverified,53,English,A man is playing a guitar.,g36ho6UrBz0_5_20
+158,g36ho6UrBz0,5,20,169605,unverified,21,English,A guy is playing guitar.,g36ho6UrBz0_5_20
+159,g36ho6UrBz0,5,20,169072,unverified,40,English,A man is playing a guitar.,g36ho6UrBz0_5_20
+160,g36ho6UrBz0,5,20,728190,unverified,73,English,A man is playing a guitar.,g36ho6UrBz0_5_20
+161,g36ho6UrBz0,5,20,617730,unverified,16,English,A man is playing a guitar outside.,g36ho6UrBz0_5_20
+162,g36ho6UrBz0,5,20,223451,unverified,29,English,A man is happily playing guitar,g36ho6UrBz0_5_20
+163,g36ho6UrBz0,5,20,383544,unverified,32,English,a man is playing a guitar,g36ho6UrBz0_5_20
+164,g36ho6UrBz0,5,20,394339,unverified,129,English,A man is playing the guitar.,g36ho6UrBz0_5_20
+165,g36ho6UrBz0,5,20,309959,unverified,17,English,The man played his guitar at the party.,g36ho6UrBz0_5_20
+166,g36ho6UrBz0,5,20,130040,unverified,55,English,A band is performing on a stage outside.,g36ho6UrBz0_5_20
+167,g36ho6UrBz0,5,20,662670,unverified,199,English,A man is sitting outdoors playing an electric guitar.,g36ho6UrBz0_5_20
+168,g36ho6UrBz0,5,20,628967,unverified,20,English,A man is playing a guitar outside.,g36ho6UrBz0_5_20
+169,g36ho6UrBz0,5,20,762891,unverified,16,English,The man is playing the guitar.,g36ho6UrBz0_5_20
+170,g36ho6UrBz0,5,20,464184,unverified,46,English,A man is playing the guitar.,g36ho6UrBz0_5_20
+171,g36ho6UrBz0,5,20,675312,unverified,121,English,A man is playing an electric guitar outside a home.,g36ho6UrBz0_5_20
+172,g36ho6UrBz0,5,20,965537,unverified,218,English,He is playing guitar and not interested in any drink,g36ho6UrBz0_5_20
+173,g36ho6UrBz0,5,20,807872,unverified,17,English,A man plays the guitar.,g36ho6UrBz0_5_20
+174,g36ho6UrBz0,5,20,963466,unverified,35,English,A man is playing violin.,g36ho6UrBz0_5_20
+175,g36ho6UrBz0,5,20,553931,unverified,20,English,A man strummed his guitar on his patio.,g36ho6UrBz0_5_20
+190,04Gt01vatkk,248,265,550906,clean,33,English,A woman cuts an oion.,04Gt01vatkk_248_265
+191,04Gt01vatkk,248,265,280252,clean,39,English,A girl is cutting an onion.,04Gt01vatkk_248_265
+192,04Gt01vatkk,248,265,155632,clean,30,English,A girl is cutting an onion.,04Gt01vatkk_248_265
+193,04Gt01vatkk,248,265,257003,clean,96,English,A girl is cutting onion into small pieces.,04Gt01vatkk_248_265
+194,04Gt01vatkk,248,265,135141,clean,36,English,A girl is dicing up an onion.,04Gt01vatkk_248_265
+195,04Gt01vatkk,248,265,295615,clean,57,English,A woman chops a white onion.,04Gt01vatkk_248_265
+196,04Gt01vatkk,248,265,297776,clean,39,English,A woman cuts and dices an onion.,04Gt01vatkk_248_265
+197,04Gt01vatkk,248,265,374994,clean,62,English,A woman is chopping an onion into small pieces.,04Gt01vatkk_248_265
+198,04Gt01vatkk,248,265,772960,clean,128,English,A woman is chopping an onion slice into fine pieces.,04Gt01vatkk_248_265
+199,04Gt01vatkk,248,265,625932,clean,59,English,A woman is cutting onions.,04Gt01vatkk_248_265
+200,04Gt01vatkk,248,265,922727,clean,57,English,A woman is slicing a onion.,04Gt01vatkk_248_265
+201,04Gt01vatkk,248,265,275759,clean,305,English,A Woman is slicing some vegetables.,04Gt01vatkk_248_265
+202,04Gt01vatkk,248,265,159786,clean,1231,English,A woman slices an onion.,04Gt01vatkk_248_265
+203,04Gt01vatkk,248,265,215924,clean,101,English,An onion is chopped up.,04Gt01vatkk_248_265
+204,04Gt01vatkk,248,265,762891,clean,40,English,The cook is dicing onions.,04Gt01vatkk_248_265
+205,04Gt01vatkk,248,265,553931,clean,19,English,The girl is slicing an onion.,04Gt01vatkk_248_265
+206,04Gt01vatkk,248,265,371782,unverified,173,English,A woman is cutting the tomato into pieces,04Gt01vatkk_248_265
+207,04Gt01vatkk,248,265,202380,unverified,45,English,A woman is slicing an onion.,04Gt01vatkk_248_265
+208,04Gt01vatkk,248,265,120123,unverified,30,English,A young woman cutting an onion to make salsa.,04Gt01vatkk_248_265
+209,04Gt01vatkk,248,265,978992,unverified,29,English,A girl is chopping onions.,04Gt01vatkk_248_265
+210,04Gt01vatkk,248,265,169605,unverified,12,English,A girl is slicing an onion.,04Gt01vatkk_248_265
+211,04Gt01vatkk,248,265,748930,unverified,88,English,A lady is chopping onions.,04Gt01vatkk_248_265
+212,04Gt01vatkk,248,265,807872,unverified,23,English,A woman cuts an onion.,04Gt01vatkk_248_265
+213,04Gt01vatkk,248,265,488402,unverified,41,English,A woman cutting an onion.,04Gt01vatkk_248_265
+214,04Gt01vatkk,248,265,132126,unverified,58,English,A woman in a red dress chopping tomatoes.,04Gt01vatkk_248_265
+215,04Gt01vatkk,248,265,760882,unverified,145,English,A woman is chopping onions.,04Gt01vatkk_248_265
+216,04Gt01vatkk,248,265,214410,unverified,33,English,A woman is chopping onions.,04Gt01vatkk_248_265
+217,04Gt01vatkk,248,265,994422,unverified,19,English,A woman is chopping up onions.,04Gt01vatkk_248_265
+218,04Gt01vatkk,248,265,651813,unverified,10,English,A woman is cutting an onion.,04Gt01vatkk_248_265
+219,04Gt01vatkk,248,265,844963,unverified,64,English,A woman is cutting onions.,04Gt01vatkk_248_265
+220,04Gt01vatkk,248,265,682611,unverified,16,English,A woman is dicing an onion.,04Gt01vatkk_248_265
+221,04Gt01vatkk,248,265,252681,unverified,18,English,A woman is dicing an onion.,04Gt01vatkk_248_265
+222,04Gt01vatkk,248,265,406601,unverified,790,English,A woman is slicing a salsa.,04Gt01vatkk_248_265
+223,04Gt01vatkk,248,265,502429,unverified,232,English,A woman is slicing an onion.,04Gt01vatkk_248_265
+224,04Gt01vatkk,248,265,435773,unverified,18,English,A woman is slicing an onion.,04Gt01vatkk_248_265
+225,04Gt01vatkk,248,265,617730,unverified,33,English,A woman is slicing and chopping up an onion.,04Gt01vatkk_248_265
+226,04Gt01vatkk,248,265,825347,unverified,16,English,A woman is slicing and dicing an onion,04Gt01vatkk_248_265
+227,04Gt01vatkk,248,265,443302,unverified,469,English,A woman is slicing some tomatoes.,04Gt01vatkk_248_265
+228,04Gt01vatkk,248,265,124709,unverified,61,English,A woman is slicing some vegetables,04Gt01vatkk_248_265
+229,04Gt01vatkk,248,265,130040,unverified,57,English,A woman is slicing some vegitable.,04Gt01vatkk_248_265
+230,04Gt01vatkk,248,265,668575,unverified,67,English,A woman is slicing then dicing an onion,04Gt01vatkk_248_265
+231,04Gt01vatkk,248,265,169072,unverified,52,English,A woman is slicing vegetables.,04Gt01vatkk_248_265
+232,04Gt01vatkk,248,265,309959,unverified,17,English,The girl sliced an onion.,04Gt01vatkk_248_265
+233,04Gt01vatkk,248,265,553931,unverified,17,English,The girl sliced an onion.,04Gt01vatkk_248_265
+234,04Gt01vatkk,248,265,411294,unverified,16,English,The lady is slicing onions.,04Gt01vatkk_248_265
+235,04Gt01vatkk,248,265,762891,unverified,28,English,The woman is dicing an onion.,04Gt01vatkk_248_265
+236,04Gt01vatkk,248,265,469096,unverified,15,English,Woman teaches on how to cook salsa.,04Gt01vatkk_248_265
+237,04Gt01vatkk,248,265,519427,unverified,116,English,A lady is cutting onion with the knife.,04Gt01vatkk_248_265
+244,buJ5HDCinrM,150,166,135621,clean,128,English,A woman is putting make up on her face.,buJ5HDCinrM_150_166
+245,buJ5HDCinrM,150,166,435773,clean,26,English,A woman is putting makeup on her face.,buJ5HDCinrM_150_166
+246,buJ5HDCinrM,150,166,922727,clean,50,English,A woman is putting on makeup.,buJ5HDCinrM_150_166
+247,buJ5HDCinrM,150,166,275759,clean,51,English,A woman is doing facial.,buJ5HDCinrM_150_166
+248,buJ5HDCinrM,150,166,825347,clean,12,English,A woman is applying makeup to her face.,buJ5HDCinrM_150_166
+249,buJ5HDCinrM,150,166,374994,clean,15,English,A woman is applying cosmetics to her face.,buJ5HDCinrM_150_166
+250,buJ5HDCinrM,150,166,297776,clean,39,English,A woman explains how to apply makeup.,buJ5HDCinrM_150_166
+251,buJ5HDCinrM,150,166,155632,clean,20,English,A woman is applying makeup.,buJ5HDCinrM_150_166
+252,buJ5HDCinrM,150,166,772960,clean,522,English,A woman applies a concealer to the lower portion of her right cheek and blends it using her fingers to get a chiseled look.,buJ5HDCinrM_150_166
+253,buJ5HDCinrM,150,166,550906,clean,26,English,a lady rubbing makeup on,buJ5HDCinrM_150_166
+254,buJ5HDCinrM,150,166,309959,clean,16,English,The lade applied foundation.,buJ5HDCinrM_150_166
+255,buJ5HDCinrM,150,166,295615,clean,46,English,A woman applies make up to her face.,buJ5HDCinrM_150_166
+256,buJ5HDCinrM,150,166,762891,clean,27,English,The woman is putting on makeup.,buJ5HDCinrM_150_166
+257,buJ5HDCinrM,150,166,625932,clean,46,English,A woman is applying makeup.,buJ5HDCinrM_150_166
+258,buJ5HDCinrM,150,166,553931,clean,35,English,A lady put foundation on her cheek.,buJ5HDCinrM_150_166
+259,buJ5HDCinrM,150,166,161407,unverified,111,English,A lady showing her face and putting makeup,buJ5HDCinrM_150_166
+260,buJ5HDCinrM,150,166,371782,unverified,132,English,A girl is standing .,buJ5HDCinrM_150_166
+261,buJ5HDCinrM,150,166,599728,unverified,97,English,a lady is doing make-up.,buJ5HDCinrM_150_166
+262,buJ5HDCinrM,150,166,948158,unverified,47,English,A woman applies makeup to her jaw line.,buJ5HDCinrM_150_166
+263,buJ5HDCinrM,150,166,309415,unverified,28,English,A woman demonstrates applying facial products.,buJ5HDCinrM_150_166
+264,buJ5HDCinrM,150,166,741585,unverified,28,English,A woman demonstrates how to put on make-up.,buJ5HDCinrM_150_166
+265,buJ5HDCinrM,150,166,919506,unverified,249,English,a woman telling how to do makeup to face.,buJ5HDCinrM_150_166
+266,buJ5HDCinrM,150,166,334439,unverified,99,English,A women showing how to makeup,buJ5HDCinrM_150_166
+267,buJ5HDCinrM,150,166,977945,unverified,161,English,Kim Kardashian Smokey Eyes,buJ5HDCinrM_150_166
+268,buJ5HDCinrM,150,166,154335,unverified,107,English,the girl is explaine the healthcare,buJ5HDCinrM_150_166
+269,buJ5HDCinrM,150,166,120198,unverified,43,English,woman instructing how to do makeup,buJ5HDCinrM_150_166
+270,buJ5HDCinrM,150,166,829808,unverified,41,English,A girl doing make up.,buJ5HDCinrM_150_166
+271,buJ5HDCinrM,150,166,728894,unverified,44,English,A girl illustration on applying makeup.,buJ5HDCinrM_150_166
+272,buJ5HDCinrM,150,166,130040,unverified,68,English,a kim kardashian mokey eyes,buJ5HDCinrM_150_166
+273,buJ5HDCinrM,150,166,394339,unverified,47,English,A Lady giving the beauty tips about the face.,buJ5HDCinrM_150_166
+274,buJ5HDCinrM,150,166,318570,unverified,194,English,a lady is doing make up on her face.,buJ5HDCinrM_150_166
+275,buJ5HDCinrM,150,166,963466,unverified,63,English,A lady is doing make-up.,buJ5HDCinrM_150_166
+276,buJ5HDCinrM,150,166,735417,unverified,81,English,A lady is giving tips on how to do the make up.,buJ5HDCinrM_150_166
+277,buJ5HDCinrM,150,166,554590,unverified,30,English,A woman applies make-up to her face.,buJ5HDCinrM_150_166
+278,buJ5HDCinrM,150,166,638934,unverified,13,English,A woman demonstrates how to apply makeup.,buJ5HDCinrM_150_166
+279,buJ5HDCinrM,150,166,467982,unverified,105,English,A woman doing some sort of makeup on her face.,buJ5HDCinrM_150_166
+280,buJ5HDCinrM,150,166,707318,unverified,23,English,A woman is applying face makeup.,buJ5HDCinrM_150_166
+281,buJ5HDCinrM,150,166,157374,unverified,47,English,A woman is applying face makeup.,buJ5HDCinrM_150_166
+282,buJ5HDCinrM,150,166,531524,unverified,370,English,A woman is applying make up on her face.,buJ5HDCinrM_150_166
+283,buJ5HDCinrM,150,166,682611,unverified,61,English,A woman is applying makeup to her face.,buJ5HDCinrM_150_166
+284,buJ5HDCinrM,150,166,617730,unverified,20,English,A woman is applying makeup to her face.,buJ5HDCinrM_150_166
+285,buJ5HDCinrM,150,166,158187,unverified,19,English,A woman is applying makeup.,buJ5HDCinrM_150_166
+286,buJ5HDCinrM,150,166,169072,unverified,43,English,A woman is applying something on her face.,buJ5HDCinrM_150_166
+287,buJ5HDCinrM,150,166,108687,unverified,88,English,A woman is giving makeup advice.,buJ5HDCinrM_150_166
+288,buJ5HDCinrM,150,166,611139,unverified,59,English,A woman is making up her face.,buJ5HDCinrM_150_166
+289,buJ5HDCinrM,150,166,651813,unverified,16,English,A woman is placing makeup on her face.,buJ5HDCinrM_150_166
+290,buJ5HDCinrM,150,166,799001,unverified,27,English,A woman is putting on makeup.,buJ5HDCinrM_150_166
+291,buJ5HDCinrM,150,166,373663,unverified,36,English,A woman is putting on makeup.,buJ5HDCinrM_150_166
+292,buJ5HDCinrM,150,166,169605,unverified,561,English,A woman is putting on makeup.,buJ5HDCinrM_150_166
+293,buJ5HDCinrM,150,166,257511,unverified,36,English,A woman is showing how to apply foundation.,buJ5HDCinrM_150_166
+294,buJ5HDCinrM,150,166,502429,unverified,943,English,A woman is showing makeup tips.,buJ5HDCinrM_150_166
+295,buJ5HDCinrM,150,166,597124,unverified,178,English,A woman shows how to create a Kim Kardasian makeover look.,buJ5HDCinrM_150_166
+296,buJ5HDCinrM,150,166,132126,unverified,221,English,A young woman's beautifully made-up eyes.,buJ5HDCinrM_150_166
+297,buJ5HDCinrM,150,166,705358,unverified,195,English,KIm kardashian makeup on face,buJ5HDCinrM_150_166
+298,buJ5HDCinrM,150,166,762891,unverified,25,English,The woman is applying makeup.,buJ5HDCinrM_150_166
+299,buJ5HDCinrM,150,166,497691,unverified,85,English,A GIRL IS TEACHING ABOUT SOMEONE.,buJ5HDCinrM_150_166
+300,buJ5HDCinrM,150,166,818922,unverified,89,English,A LADY IS DOING MAKE UP.,buJ5HDCinrM_150_166
+301,buJ5HDCinrM,150,166,236993,unverified,16,English,AN WOMEN EYES,buJ5HDCinrM_150_166
+302,buJ5HDCinrM,150,166,965612,unverified,86,English,the girl is giving speech,buJ5HDCinrM_150_166
+303,buJ5HDCinrM,150,166,418656,unverified,86,English,A lady is doing make up!,buJ5HDCinrM_150_166
+304,buJ5HDCinrM,150,166,268378,unverified,213,English,"This video will show you how to do a complete facial makeover, so you can look like a star in no time!",buJ5HDCinrM_150_166
+326,M_TP6UTrh30,343,358,374994,clean,37,English,A band is performing for a large crowd.,M_TP6UTrh30_343_358
+327,M_TP6UTrh30,343,358,280252,clean,53,English,A band is performing on a stage outside.,M_TP6UTrh30_343_358
+328,M_TP6UTrh30,343,358,275759,clean,14,English,A band is performing out stage.,M_TP6UTrh30_343_358
+329,M_TP6UTrh30,343,358,651813,clean,15,English,A band is playing for a group of people.,M_TP6UTrh30_343_358
+330,M_TP6UTrh30,343,358,922727,clean,22,English,A band is playing outside.,M_TP6UTrh30_343_358
+331,M_TP6UTrh30,343,358,617730,clean,14,English,A band is playing to a large crowd.,M_TP6UTrh30_343_358
+332,M_TP6UTrh30,343,358,825347,clean,14,English,A band on stage is playing in front of a large crowd.,M_TP6UTrh30_343_358
+333,M_TP6UTrh30,343,358,297776,clean,36,English,A band performs on a stage.,M_TP6UTrh30_343_358
+334,M_TP6UTrh30,343,358,159786,clean,1945,English,A band plays for a large crowd.,M_TP6UTrh30_343_358
+335,M_TP6UTrh30,343,358,807872,clean,25,English,A band plays in front of a huge crowd.,M_TP6UTrh30_343_358
+336,M_TP6UTrh30,343,358,760882,clean,76,English,A band plays on stage outside.,M_TP6UTrh30_343_358
+337,M_TP6UTrh30,343,358,772960,clean,111,English,A rock band is performing on stage in front of a large gathering of people.,M_TP6UTrh30_343_358
+338,M_TP6UTrh30,343,358,155632,clean,22,English,Men are playing music in the street.,M_TP6UTrh30_343_358
+339,M_TP6UTrh30,343,358,169605,clean,12,English,People are playing music.,M_TP6UTrh30_343_358
+340,M_TP6UTrh30,343,358,553931,clean,22,English,The band performed for a large outside crowd.,M_TP6UTrh30_343_358
+341,M_TP6UTrh30,343,358,309959,clean,20,English,The band performed outside for a large crowd.,M_TP6UTrh30_343_358
+342,M_TP6UTrh30,343,358,762891,clean,24,English,The band was playing in front of an audience.,M_TP6UTrh30_343_358
+343,M_TP6UTrh30,343,358,965612,unverified,62,English,the some boys are sing and dancing,M_TP6UTrh30_343_358
+344,M_TP6UTrh30,343,358,906649,unverified,53,English,A band plays an outdoor concert.,M_TP6UTrh30_343_358
+345,M_TP6UTrh30,343,358,132126,unverified,54,English,A view of a rock band.,M_TP6UTrh30_343_358
+346,M_TP6UTrh30,343,358,799001,unverified,23,English,A band is playing on a stage.,M_TP6UTrh30_343_358
+347,M_TP6UTrh30,343,358,707318,unverified,14,English,A band is playing onstage.,M_TP6UTrh30_343_358
+348,M_TP6UTrh30,343,358,403763,unverified,99,English,A band is performing.,M_TP6UTrh30_343_358
+349,M_TP6UTrh30,343,358,829808,unverified,41,English,A band is performing.,M_TP6UTrh30_343_358
+350,M_TP6UTrh30,343,358,257511,unverified,27,English,A band is performing on stage in front of a large crowd.,M_TP6UTrh30_343_358
+351,M_TP6UTrh30,343,358,394301,unverified,35,English,A band is performing on a stage outside.,M_TP6UTrh30_343_358
+352,M_TP6UTrh30,343,358,741585,unverified,15,English,A band is playing on a stage.,M_TP6UTrh30_343_358
+353,M_TP6UTrh30,343,358,590752,unverified,97,English,A band performing on a stage,M_TP6UTrh30_343_358
+354,M_TP6UTrh30,343,358,373663,unverified,47,English,"A band is performing onstage, outside.",M_TP6UTrh30_343_358
+355,M_TP6UTrh30,343,358,984905,unverified,74,English,Cool band is playng on a stage outside.,M_TP6UTrh30_343_358
+356,M_TP6UTrh30,343,358,844963,unverified,68,English,A band is performing in frint of a huge crowd.,M_TP6UTrh30_343_358
+357,M_TP6UTrh30,343,358,919506,unverified,52,English,ALL PEOPLE PLAYING MUSIC INSTRUMENTS.,M_TP6UTrh30_343_358
+358,M_TP6UTrh30,343,358,705358,unverified,135,English,A short clip about Rock movie.,M_TP6UTrh30_343_358
+359,M_TP6UTrh30,343,358,169605,unverified,11,English,People are at a concert.,M_TP6UTrh30_343_358
+360,M_TP6UTrh30,343,358,169072,unverified,36,English,A man is playing a guitar.,M_TP6UTrh30_343_358
+361,M_TP6UTrh30,343,358,749155,unverified,47,English,A crowd of people enjoying a musical concert,M_TP6UTrh30_343_358
+362,M_TP6UTrh30,343,358,467982,unverified,159,English,A short clip from the rockon showing the stars in it.,M_TP6UTrh30_343_358
+363,M_TP6UTrh30,343,358,394339,unverified,567,English,A musical group givinig his rock perfomance on stage.,M_TP6UTrh30_343_358
+364,M_TP6UTrh30,343,358,130040,unverified,24,English,peoples singing song,M_TP6UTrh30_343_358
+365,M_TP6UTrh30,343,358,279187,unverified,152,English,A rock band plays music on stage.,M_TP6UTrh30_343_358
+366,M_TP6UTrh30,343,358,662670,unverified,56,English,A band is performing outdoors surrounded by a large crowd.,M_TP6UTrh30_343_358
+367,M_TP6UTrh30,343,358,161407,unverified,204,English,group of boys playing instruments,M_TP6UTrh30_343_358
+368,M_TP6UTrh30,343,358,525230,unverified,238,English,rock the entire boys group,M_TP6UTrh30_343_358
+369,M_TP6UTrh30,343,358,633378,unverified,33,English,A ban is performing on stage outside.,M_TP6UTrh30_343_358
+370,M_TP6UTrh30,343,358,554590,unverified,29,English,A crowd dances while a rock band plays.,M_TP6UTrh30_343_358
+384,8mSUD7JGNO0,174,181,550906,clean,26,English,A woman gallops on a horse.,8mSUD7JGNO0_174_181
+385,8mSUD7JGNO0,174,181,651813,clean,14,English,A girl is riding a horse.,8mSUD7JGNO0_174_181
+386,8mSUD7JGNO0,174,181,922727,clean,18,English,A girl is riding a horse.,8mSUD7JGNO0_174_181
+387,8mSUD7JGNO0,174,181,155632,clean,15,English,A girl is riding a horse.,8mSUD7JGNO0_174_181
+388,8mSUD7JGNO0,174,181,553931,clean,27,English,A girl rode a horse in the barn.,8mSUD7JGNO0_174_181
+389,8mSUD7JGNO0,174,181,435773,clean,21,English,A lady is riding a horse in a barn.,8mSUD7JGNO0_174_181
+390,8mSUD7JGNO0,174,181,825347,clean,21,English,A person is keeping their horse at a trot.,8mSUD7JGNO0_174_181
+391,8mSUD7JGNO0,174,181,374994,clean,23,English,A person is riding a horse along the perimeter.,8mSUD7JGNO0_174_181
+392,8mSUD7JGNO0,174,181,135621,clean,98,English,A woman is galloping a horse around an inside arena.,8mSUD7JGNO0_174_181
+393,8mSUD7JGNO0,174,181,772960,clean,84,English,A woman is riding a horse in an enlosed covered area.,8mSUD7JGNO0_174_181
+394,8mSUD7JGNO0,174,181,625932,clean,19,English,A woman is riding a horse.,8mSUD7JGNO0_174_181
+395,8mSUD7JGNO0,174,181,760882,clean,18,English,A woman is riding a horse.,8mSUD7JGNO0_174_181
+396,8mSUD7JGNO0,174,181,280252,clean,32,English,A woman is riding on a horse.,8mSUD7JGNO0_174_181
+397,8mSUD7JGNO0,174,181,275759,clean,35,English,A woman is riding on a horse.,8mSUD7JGNO0_174_181
+398,8mSUD7JGNO0,174,181,309959,clean,17,English,The horse and rider trotted around the barn.,8mSUD7JGNO0_174_181
+399,8mSUD7JGNO0,174,181,762891,clean,27,English,The woman is riding a horse.,8mSUD7JGNO0_174_181
+400,8mSUD7JGNO0,174,181,599728,unverified,81,English,a girl is riding a horse,8mSUD7JGNO0_174_181
+401,8mSUD7JGNO0,174,181,974128,unverified,104,English,a girl is riding in the horse.,8mSUD7JGNO0_174_181
+402,8mSUD7JGNO0,174,181,371782,unverified,116,English,A girl is sitting on the black horse.,8mSUD7JGNO0_174_181
+403,8mSUD7JGNO0,174,181,394339,unverified,276,English,a lady riding a horse,8mSUD7JGNO0_174_181
+404,8mSUD7JGNO0,174,181,615202,unverified,24,English,a man is rading in a horse,8mSUD7JGNO0_174_181
+405,8mSUD7JGNO0,174,181,977945,unverified,180,English,A men walking on house,8mSUD7JGNO0_174_181
+406,8mSUD7JGNO0,174,181,334439,unverified,47,English,A person is riding on horse,8mSUD7JGNO0_174_181
+407,8mSUD7JGNO0,174,181,741585,unverified,28,English,A woman is riding a horse.,8mSUD7JGNO0_174_181
+408,8mSUD7JGNO0,174,181,531524,unverified,571,English,Few guys are driving the horses.,8mSUD7JGNO0_174_181
+409,8mSUD7JGNO0,174,181,857450,unverified,41,English,Fiona My best friend,8mSUD7JGNO0_174_181
+410,8mSUD7JGNO0,174,181,705358,unverified,250,English,one lady riding on horse,8mSUD7JGNO0_174_181
+411,8mSUD7JGNO0,174,181,169605,unverified,19,English,Someone is riding a horse.,8mSUD7JGNO0_174_181
+412,8mSUD7JGNO0,174,181,807741,unverified,39,English,the man is riding a horse.,8mSUD7JGNO0_174_181
+413,8mSUD7JGNO0,174,181,467982,unverified,71,English,A boy riding a horse in horse stable.,8mSUD7JGNO0_174_181
+414,8mSUD7JGNO0,174,181,124682,unverified,22,English,A girl is riding a horse,8mSUD7JGNO0_174_181
+415,8mSUD7JGNO0,174,181,921581,unverified,25,English,A girl is riding a horse inside a barn,8mSUD7JGNO0_174_181
+416,8mSUD7JGNO0,174,181,638934,unverified,9,English,A girl is riding a horse.,8mSUD7JGNO0_174_181
+417,8mSUD7JGNO0,174,181,408179,unverified,26,English,A girl is riding a horse.,8mSUD7JGNO0_174_181
+418,8mSUD7JGNO0,174,181,132126,unverified,47,English,A girl riding a horse.,8mSUD7JGNO0_174_181
+419,8mSUD7JGNO0,174,181,130040,unverified,70,English,a girl riding with a horse,8mSUD7JGNO0_174_181
+420,8mSUD7JGNO0,174,181,611139,unverified,44,English,A horse is driven by a woman.,8mSUD7JGNO0_174_181
+421,8mSUD7JGNO0,174,181,318570,unverified,129,English,a lady is riding a horse.,8mSUD7JGNO0_174_181
+422,8mSUD7JGNO0,174,181,785885,unverified,18,English,A man is jogging on the horse,8mSUD7JGNO0_174_181
+423,8mSUD7JGNO0,174,181,281652,unverified,26,English,A man is riding on a horse.,8mSUD7JGNO0_174_181
+424,8mSUD7JGNO0,174,181,963466,unverified,31,English,A man is riding on the horse.,8mSUD7JGNO0_174_181
+425,8mSUD7JGNO0,174,181,279187,unverified,408,English,A man rides a horse in the barn.,8mSUD7JGNO0_174_181
+426,8mSUD7JGNO0,174,181,919506,unverified,48,English,a man riding horse.,8mSUD7JGNO0_174_181
+427,8mSUD7JGNO0,174,181,919804,unverified,37,English,A person is riding a horse inside a large building.,8mSUD7JGNO0_174_181
+428,8mSUD7JGNO0,174,181,707318,unverified,10,English,A person is riding a horse.,8mSUD7JGNO0_174_181
+429,8mSUD7JGNO0,174,181,403763,unverified,62,English,A person is riding a horse.,8mSUD7JGNO0_174_181
+430,8mSUD7JGNO0,174,181,947723,unverified,27,English,A person rides a horse in stable.,8mSUD7JGNO0_174_181
+431,8mSUD7JGNO0,174,181,373663,unverified,34,English,A woman is riding a horse beside a wall.,8mSUD7JGNO0_174_181
+432,8mSUD7JGNO0,174,181,257511,unverified,24,English,A woman is riding a horse in a barn.,8mSUD7JGNO0_174_181
+433,8mSUD7JGNO0,174,181,108687,unverified,21,English,A woman is riding a horse.,8mSUD7JGNO0_174_181
+434,8mSUD7JGNO0,174,181,169072,unverified,46,English,A woman is riding a horse.,8mSUD7JGNO0_174_181
+435,8mSUD7JGNO0,174,181,544487,unverified,81,English,A woman is riding a horse.,8mSUD7JGNO0_174_181
+436,8mSUD7JGNO0,174,181,813710,unverified,46,English,A woman is riding around on a horse.,8mSUD7JGNO0_174_181
+437,8mSUD7JGNO0,174,181,502429,unverified,2594,English,A woman is riding on a horse.,8mSUD7JGNO0_174_181
+438,8mSUD7JGNO0,174,181,246119,unverified,56,English,A woman rides a horse inside a barn.,8mSUD7JGNO0_174_181
+439,8mSUD7JGNO0,174,181,990853,unverified,57,English,the person is raiding the horse,8mSUD7JGNO0_174_181
+440,8mSUD7JGNO0,174,181,418656,unverified,55,English,A man is riding in a horse.,8mSUD7JGNO0_174_181
+441,8mSUD7JGNO0,174,181,132982,unverified,54,English,A man practice horse riding.,8mSUD7JGNO0_174_181
+442,8mSUD7JGNO0,174,181,347757,unverified,106,English,A young girl is riding a horse,8mSUD7JGNO0_174_181
+470,ljGcQocjSs4,38,60,169605,clean,15,English,A guy is shooting a gun.,ljGcQocjSs4_38_60
+471,ljGcQocjSs4,38,60,309959,clean,20,English,A man fired a gun at some targets.,ljGcQocjSs4_38_60
+472,ljGcQocjSs4,38,60,181773,clean,25,English,A man is firing a gun at targets.,ljGcQocjSs4_38_60
+473,ljGcQocjSs4,38,60,275759,clean,52,English,A man is firing with a revolver.,ljGcQocjSs4_38_60
+474,ljGcQocjSs4,38,60,435773,clean,30,English,A man is shooting a gun at a target range.,ljGcQocjSs4_38_60
+475,ljGcQocjSs4,38,60,155632,clean,19,English,A man is target shooting.,ljGcQocjSs4_38_60
+476,ljGcQocjSs4,38,60,878566,clean,38,English,A man picks up a gun and shoots down 5 targets.,ljGcQocjSs4_38_60
+477,ljGcQocjSs4,38,60,760882,clean,26,English,A man shoots a gun at targets.,ljGcQocjSs4_38_60
+478,ljGcQocjSs4,38,60,617730,clean,23,English,A man shoots a pistol at some targets.,ljGcQocjSs4_38_60
+479,ljGcQocjSs4,38,60,159786,clean,506,English,A man shoots a single action revolver.,ljGcQocjSs4_38_60
+480,ljGcQocjSs4,38,60,297776,clean,43,English,A man shoots targets with a pistol.,ljGcQocjSs4_38_60
+481,ljGcQocjSs4,38,60,374994,clean,40,English,A person is firing a pistol at targets.,ljGcQocjSs4_38_60
+482,ljGcQocjSs4,38,60,381885,clean,55,English,A person is shooting at targets with a pistol.,ljGcQocjSs4_38_60
+483,ljGcQocjSs4,38,60,825347,clean,16,English,A person is shooting targets with a gun.,ljGcQocjSs4_38_60
+484,ljGcQocjSs4,38,60,807872,clean,31,English,A person shoots a pistol.,ljGcQocjSs4_38_60
+485,ljGcQocjSs4,38,60,252681,clean,27,English,A person shoots at and knocks down all six targets in a row.,ljGcQocjSs4_38_60
+486,ljGcQocjSs4,38,60,922727,clean,29,English,Someone is shooting a gun.,ljGcQocjSs4_38_60
+487,ljGcQocjSs4,38,60,762891,clean,14,English,The man is shooting a gun.,ljGcQocjSs4_38_60
+488,ljGcQocjSs4,38,60,553931,clean,25,English,The man picked up his gun and fired at the targets.,ljGcQocjSs4_38_60
+489,ljGcQocjSs4,38,60,132982,unverified,80,English,A man is practicing to shoot.,ljGcQocjSs4_38_60
+490,ljGcQocjSs4,38,60,965612,unverified,44,English,the person is shoot them,ljGcQocjSs4_38_60
+491,ljGcQocjSs4,38,60,154335,unverified,454,English,the person practice the shooting with his gun,ljGcQocjSs4_38_60
+492,ljGcQocjSs4,38,60,707318,unverified,22,English,A man shoots a gun at targets.,ljGcQocjSs4_38_60
+493,ljGcQocjSs4,38,60,318570,unverified,361,English,a man is taking the gun.,ljGcQocjSs4_38_60
+494,ljGcQocjSs4,38,60,191580,unverified,48,English,A man picks up a pistol and shoots six targets in a row.,ljGcQocjSs4_38_60
+495,ljGcQocjSs4,38,60,403763,unverified,102,English,The person is shooting at the targets.,ljGcQocjSs4_38_60
+496,ljGcQocjSs4,38,60,257511,unverified,30,English,A person is shooting a handgun at distant targets.,ljGcQocjSs4_38_60
+497,ljGcQocjSs4,38,60,497691,unverified,50,English,A MAN IS SHOOTING SOMEONE TARGET.,ljGcQocjSs4_38_60
+498,ljGcQocjSs4,38,60,741585,unverified,16,English,A man is shooting a pistol.,ljGcQocjSs4_38_60
+499,ljGcQocjSs4,38,60,373663,unverified,45,English,Someone is firing a handgun.,ljGcQocjSs4_38_60
+500,ljGcQocjSs4,38,60,169072,unverified,26,English,A man is shooting.,ljGcQocjSs4_38_60
+501,ljGcQocjSs4,38,60,467982,unverified,60,English,A man doing some sort of shooting practise with a colt.,ljGcQocjSs4_38_60
+502,ljGcQocjSs4,38,60,394339,unverified,636,English,a man aiming with a pistol,ljGcQocjSs4_38_60
+503,ljGcQocjSs4,38,60,604298,unverified,69,English,A man aims a gun at a target in the distance.,ljGcQocjSs4_38_60
+504,ljGcQocjSs4,38,60,334439,unverified,326,English,A man shot with his gun,ljGcQocjSs4_38_60
+505,ljGcQocjSs4,38,60,130040,unverified,23,English,a man is firing his gun,ljGcQocjSs4_38_60
+506,ljGcQocjSs4,38,60,977945,unverified,908,English,Taurus Gaucho Replica Colt Single Action Army,ljGcQocjSs4_38_60
+507,ljGcQocjSs4,38,60,346578,unverified,46,English,Someone is shooting a revolver at targets down range.,ljGcQocjSs4_38_60
+508,ljGcQocjSs4,38,60,784999,unverified,34,English,A man is firing a gun.,ljGcQocjSs4_38_60
+509,ljGcQocjSs4,38,60,525230,unverified,252,English,the gun is shooting video,ljGcQocjSs4_38_60
+510,ljGcQocjSs4,38,60,554590,unverified,35,English,A man target shoots.,ljGcQocjSs4_38_60
+533,n2NLoLNecgI,168,178,169605,clean,15,English,A girl is playing violin.,n2NLoLNecgI_168_178
+534,n2NLoLNecgI,168,178,309959,clean,14,English,A lady played her violin.,n2NLoLNecgI_168_178
+535,n2NLoLNecgI,168,178,772960,clean,69,English,A woman is demonstrating as to how to play a violin.,n2NLoLNecgI_168_178
+536,n2NLoLNecgI,168,178,760882,clean,16,English,A woman is playing a violin.,n2NLoLNecgI_168_178
+537,n2NLoLNecgI,168,178,155632,clean,17,English,A woman is playing a violin.,n2NLoLNecgI_168_178
+538,n2NLoLNecgI,168,178,159786,clean,282,English,A woman is playing a violin.,n2NLoLNecgI_168_178
+539,n2NLoLNecgI,168,178,280252,clean,39,English,A woman is playing a violin.,n2NLoLNecgI_168_178
+540,n2NLoLNecgI,168,178,922727,clean,23,English,A woman is playing a violin.,n2NLoLNecgI_168_178
+541,n2NLoLNecgI,168,178,252681,clean,15,English,A woman is playing the violin.,n2NLoLNecgI_168_178
+542,n2NLoLNecgI,168,178,435773,clean,19,English,A woman is playing the violin.,n2NLoLNecgI_168_178
+543,n2NLoLNecgI,168,178,617730,clean,13,English,A woman is playing the violin.,n2NLoLNecgI_168_178
+544,n2NLoLNecgI,168,178,214410,clean,41,English,A woman is playing the violin.,n2NLoLNecgI_168_178
+545,n2NLoLNecgI,168,178,374994,clean,19,English,A woman is playing the violin.,n2NLoLNecgI_168_178
+546,n2NLoLNecgI,168,178,275759,clean,22,English,A woman is playing violin.,n2NLoLNecgI_168_178
+547,n2NLoLNecgI,168,178,297776,clean,27,English,A woman plays a violin.,n2NLoLNecgI_168_178
+548,n2NLoLNecgI,168,178,807872,clean,16,English,A woman plays the violin.,n2NLoLNecgI_168_178
+549,n2NLoLNecgI,168,178,553931,clean,22,English,The lady played her violin.,n2NLoLNecgI_168_178
+550,n2NLoLNecgI,168,178,762891,clean,15,English,The woman is playing the violin.,n2NLoLNecgI_168_178
+551,n2NLoLNecgI,168,178,132982,unverified,56,English,A Women Performing Violin.,n2NLoLNecgI_168_178
+552,n2NLoLNecgI,168,178,833861,unverified,69,English,She is playing music,n2NLoLNecgI_168_178
+553,n2NLoLNecgI,168,178,965612,unverified,41,English,the women is playing violin,n2NLoLNecgI_168_178
+554,n2NLoLNecgI,168,178,611139,unverified,56,English,A woman is playing Benzo.,n2NLoLNecgI_168_178
+555,n2NLoLNecgI,168,178,266771,unverified,80,English,A lady is playing violin,n2NLoLNecgI_168_178
+556,n2NLoLNecgI,168,178,495520,unverified,194,English,Lesson of violin.,n2NLoLNecgI_168_178
+557,n2NLoLNecgI,168,178,799001,unverified,21,English,A woman is playing a violin.,n2NLoLNecgI_168_178
+558,n2NLoLNecgI,168,178,707318,unverified,12,English,A woman is playing a piano.,n2NLoLNecgI_168_178
+559,n2NLoLNecgI,168,178,318570,unverified,88,English,A lady is playing the guitar.,n2NLoLNecgI_168_178
+560,n2NLoLNecgI,168,178,418656,unverified,75,English,A lady is playimg piano!,n2NLoLNecgI_168_178
+561,n2NLoLNecgI,168,178,502429,unverified,40,English,A woman is playing a violin.,n2NLoLNecgI_168_178
+562,n2NLoLNecgI,168,178,741585,unverified,14,English,A woman is playing the violin.,n2NLoLNecgI_168_178
+563,n2NLoLNecgI,168,178,373663,unverified,29,English,A woman is playing a violin.,n2NLoLNecgI_168_178
+564,n2NLoLNecgI,168,178,120123,unverified,75,English,A woman giving a violin lesson about vibrato on the violin.,n2NLoLNecgI_168_178
+565,n2NLoLNecgI,168,178,813710,unverified,18,English,A woman is playing the violin.,n2NLoLNecgI_168_178
+566,n2NLoLNecgI,168,178,155632,unverified,22,English,A woman is playing a violin.,n2NLoLNecgI_168_178
+567,n2NLoLNecgI,168,178,169072,unverified,32,English,A woman is playing a violen.,n2NLoLNecgI_168_178
+568,n2NLoLNecgI,168,178,294958,unverified,24,English,A woman plays the violin.,n2NLoLNecgI_168_178
+569,n2NLoLNecgI,168,178,749155,unverified,34,English,A Lady playing violin and singing,n2NLoLNecgI_168_178
+570,n2NLoLNecgI,168,178,394339,unverified,249,English,a lady playing a guitar,n2NLoLNecgI_168_178
+571,n2NLoLNecgI,168,178,977945,unverified,121,English,A women playing gitter,n2NLoLNecgI_168_178
+572,n2NLoLNecgI,168,178,279187,unverified,63,English,A woman explains playing violin.,n2NLoLNecgI_168_178
+573,n2NLoLNecgI,168,178,545451,unverified,46,English,The lady is practising with the voilin.,n2NLoLNecgI_168_178
+574,n2NLoLNecgI,168,178,869926,unverified,16,English,A woman is playing the violin.,n2NLoLNecgI_168_178
+575,n2NLoLNecgI,168,178,633378,unverified,27,English,A woman is playing a violin.,n2NLoLNecgI_168_178
+576,n2NLoLNecgI,168,178,638934,unverified,9,English,A woman is playing violin.,n2NLoLNecgI_168_178
+577,n2NLoLNecgI,168,178,514595,unverified,76,English,A lady playing violin,n2NLoLNecgI_168_178
+599,6q1dX6thX3E,286,295,651813,clean,35,English,A man is talking on the phone.,6q1dX6thX3E_286_295
+600,6q1dX6thX3E,286,295,760882,clean,43,English,A man is talking on a phone.,6q1dX6thX3E_286_295
+601,6q1dX6thX3E,286,295,280252,clean,68,English,A man is talking on the phone.,6q1dX6thX3E_286_295
+602,6q1dX6thX3E,286,295,159786,clean,1322,English,A man is talking on a cell phone.,6q1dX6thX3E_286_295
+603,6q1dX6thX3E,286,295,922727,clean,14,English,A man is talking on the phone.,6q1dX6thX3E_286_295
+604,6q1dX6thX3E,286,295,275759,clean,42,English,A man is talking on mobile phone.,6q1dX6thX3E_286_295
+605,6q1dX6thX3E,286,295,825347,clean,11,English,A man is speaking on a telephone.,6q1dX6thX3E_286_295
+606,6q1dX6thX3E,286,295,157374,clean,46,English,A man is talking on the telephone.,6q1dX6thX3E_286_295
+607,6q1dX6thX3E,286,295,374994,clean,33,English,A man is talking on a cell phone.,6q1dX6thX3E_286_295
+608,6q1dX6thX3E,286,295,297776,clean,30,English,A man talks on a telephone.,6q1dX6thX3E_286_295
+609,6q1dX6thX3E,286,295,155632,clean,21,English,A man is talking on the phone.,6q1dX6thX3E_286_295
+610,6q1dX6thX3E,286,295,169605,clean,26,English,A man is talking on the phone.,6q1dX6thX3E_286_295
+611,6q1dX6thX3E,286,295,617730,clean,29,English,A man speaks on a cell phone.,6q1dX6thX3E_286_295
+612,6q1dX6thX3E,286,295,309959,clean,18,English,The man talked on the telephone.,6q1dX6thX3E_286_295
+613,6q1dX6thX3E,286,295,762891,clean,12,English,The man is talking on the phone.,6q1dX6thX3E_286_295
+614,6q1dX6thX3E,286,295,807872,clean,16,English,A man talks on the phone.,6q1dX6thX3E_286_295
+615,6q1dX6thX3E,286,295,553931,clean,19,English,A mand talked on the phone.,6q1dX6thX3E_286_295
+616,6q1dX6thX3E,286,295,154335,unverified,111,English,the man is very happy to speak in the cell phone,6q1dX6thX3E_286_295
+617,6q1dX6thX3E,286,295,741585,unverified,16,English,A man is talking on the phone.,6q1dX6thX3E_286_295
+618,6q1dX6thX3E,286,295,599728,unverified,188,English,a person taking on phone,6q1dX6thX3E_286_295
+619,6q1dX6thX3E,286,295,950698,unverified,319,English,THree boys is talk in office,6q1dX6thX3E_286_295
+620,6q1dX6thX3E,286,295,750723,unverified,41,English,a men is talking in phone,6q1dX6thX3E_286_295
+621,6q1dX6thX3E,286,295,388532,unverified,13,English,A man is talking on a phone.,6q1dX6thX3E_286_295
+622,6q1dX6thX3E,286,295,840635,unverified,59,English,A man is talking on a phone.,6q1dX6thX3E_286_295
+623,6q1dX6thX3E,286,295,611139,unverified,68,English,A man is on conversation on phone.,6q1dX6thX3E_286_295
+624,6q1dX6thX3E,286,295,261314,unverified,815,English,A man is talking on a mobile.,6q1dX6thX3E_286_295
+625,6q1dX6thX3E,286,295,132126,unverified,86,English,A lone man in a white shirt and brown tie looking unhappy.,6q1dX6thX3E_286_295
+626,6q1dX6thX3E,286,295,707318,unverified,17,English,A man is talking on a phone.,6q1dX6thX3E_286_295
+627,6q1dX6thX3E,286,295,318570,unverified,193,English,a man is talking in the phone.,6q1dX6thX3E_286_295
+628,6q1dX6thX3E,286,295,325852,unverified,32,English,A man stands up and talks on his cellphone.,6q1dX6thX3E_286_295
+629,6q1dX6thX3E,286,295,334786,unverified,34,English,A man is talking on his cell phone.,6q1dX6thX3E_286_295
+630,6q1dX6thX3E,286,295,373663,unverified,32,English,A man is talking on the phone.,6q1dX6thX3E_286_295
+631,6q1dX6thX3E,286,295,169605,unverified,15,English,Someone is talking on the phone.,6q1dX6thX3E_286_295
+632,6q1dX6thX3E,286,295,169072,unverified,44,English,A man is talking in his mobile phone.,6q1dX6thX3E_286_295
+633,6q1dX6thX3E,286,295,394339,unverified,395,English,A man talking to someone on telephone.,6q1dX6thX3E_286_295
+634,6q1dX6thX3E,286,295,977945,unverified,198,English,A man is chatting on phone,6q1dX6thX3E_286_295
+635,6q1dX6thX3E,286,295,346578,unverified,27,English,A man is talking on a cordless phone.,6q1dX6thX3E_286_295
+636,6q1dX6thX3E,286,295,762891,unverified,13,English,The man is talking on the phone.,6q1dX6thX3E_286_295
+637,6q1dX6thX3E,286,295,633378,unverified,33,English,A man is speaking on a phone.,6q1dX6thX3E_286_295
+638,6q1dX6thX3E,286,295,638934,unverified,8,English,A man is talking on the phone.,6q1dX6thX3E_286_295
+639,6q1dX6thX3E,286,295,554590,unverified,21,English,A man talks on the phone.,6q1dX6thX3E_286_295
+640,6q1dX6thX3E,286,295,833861,unverified,37,English,He is talking on the phone,6q1dX6thX3E_286_295
+641,6q1dX6thX3E,286,295,965612,unverified,48,English,the person is talking with phone,6q1dX6thX3E_286_295
+642,6q1dX6thX3E,286,295,497691,unverified,72,English,A MAN IS SPEAKING PHONE .,6q1dX6thX3E_286_295
+643,6q1dX6thX3E,286,295,132982,unverified,49,English,A man is talking in phone.,6q1dX6thX3E_286_295
+655,mFCf8lLXrUc,25,35,550906,clean,75,English,A person is peeling a mango.,mFCf8lLXrUc_25_35
+656,mFCf8lLXrUc,25,35,159786,clean,1044,English,A chef is peeling a mango.,mFCf8lLXrUc_25_35
+657,mFCf8lLXrUc,25,35,615204,clean,49,English,A large mango is peeled.,mFCf8lLXrUc_25_35
+658,mFCf8lLXrUc,25,35,309959,clean,36,English,A man peeled an avocado.,mFCf8lLXrUc_25_35
+659,mFCf8lLXrUc,25,35,625932,clean,23,English,A mango is being peeled.,mFCf8lLXrUc_25_35
+660,mFCf8lLXrUc,25,35,922727,clean,37,English,A mango is being peeled.,mFCf8lLXrUc_25_35
+661,mFCf8lLXrUc,25,35,215924,clean,36,English,A mango is peeled.,mFCf8lLXrUc_25_35
+662,mFCf8lLXrUc,25,35,135141,clean,89,English,A person is peeling the skin off a mango using a knife.,mFCf8lLXrUc_25_35
+663,mFCf8lLXrUc,25,35,297776,clean,27,English,A person peels a mango.,mFCf8lLXrUc_25_35
+664,mFCf8lLXrUc,25,35,280252,clean,44,English,A woman is peeling a mango.,mFCf8lLXrUc_25_35
+665,mFCf8lLXrUc,25,35,275759,clean,71,English,A woman is peeling a mango.,mFCf8lLXrUc_25_35
+666,mFCf8lLXrUc,25,35,772960,clean,89,English,A woman is peeling the skin of a mango using a vegetable peeler.,mFCf8lLXrUc_25_35
+667,mFCf8lLXrUc,25,35,295615,clean,38,English,An individual peels a mango.,mFCf8lLXrUc_25_35
+668,mFCf8lLXrUc,25,35,155632,clean,52,English,Someone is peeling a mango.,mFCf8lLXrUc_25_35
+669,mFCf8lLXrUc,25,35,553931,clean,24,English,Someone is peeling a squash.,mFCf8lLXrUc_25_35
+670,mFCf8lLXrUc,25,35,762891,clean,37,English,The person is peeling a mango.,mFCf8lLXrUc_25_35
+671,mFCf8lLXrUc,25,35,411294,unverified,23,English,The person is slicing the skin off the mango.,mFCf8lLXrUc_25_35
+672,mFCf8lLXrUc,25,35,651813,unverified,23,English,A woman is peeling a mango.,mFCf8lLXrUc_25_35
+673,mFCf8lLXrUc,25,35,760882,unverified,23,English,A person peels a mango.,mFCf8lLXrUc_25_35
+674,mFCf8lLXrUc,25,35,252681,unverified,14,English,A person is peeling a mango.,mFCf8lLXrUc_25_35
+675,mFCf8lLXrUc,25,35,343525,unverified,54,English,The woman is showing how to prepare mango fruits.,mFCf8lLXrUc_25_35
+676,mFCf8lLXrUc,25,35,394758,unverified,73,English,peeling  off the mangoes,mFCf8lLXrUc_25_35
+677,mFCf8lLXrUc,25,35,132126,unverified,115,English,Chopped mangoes ready for the eating.,mFCf8lLXrUc_25_35
+678,mFCf8lLXrUc,25,35,845886,unverified,74,English,A woman peeling a mango.,mFCf8lLXrUc_25_35
+679,mFCf8lLXrUc,25,35,707318,unverified,33,English,A person is peeling a mango.,mFCf8lLXrUc_25_35
+680,mFCf8lLXrUc,25,35,553125,unverified,25,English,A person is peeling a mango.,mFCf8lLXrUc_25_35
+681,mFCf8lLXrUc,25,35,318570,unverified,186,English,A lady removing the mango peel using peeler .,mFCf8lLXrUc_25_35
+682,mFCf8lLXrUc,25,35,843841,unverified,767,English,one lady removing skin from mango,mFCf8lLXrUc_25_35
+683,mFCf8lLXrUc,25,35,339451,unverified,60,English,Someone is peeling a mango ready to slice.,mFCf8lLXrUc_25_35
+684,mFCf8lLXrUc,25,35,371782,unverified,196,English,A guy prepares the mango slices.,mFCf8lLXrUc_25_35
+685,mFCf8lLXrUc,25,35,418656,unverified,87,English,The outer layer of mango is pealed off.,mFCf8lLXrUc_25_35
+686,mFCf8lLXrUc,25,35,435773,unverified,16,English,A woman is peeling the skin off of a mango.,mFCf8lLXrUc_25_35
+687,mFCf8lLXrUc,25,35,157374,unverified,64,English,A person peels a mango with a vegetable peeler.,mFCf8lLXrUc_25_35
+688,mFCf8lLXrUc,25,35,599728,unverified,74,English,taking of the pickel of any friut,mFCf8lLXrUc_25_35
+689,mFCf8lLXrUc,25,35,844963,unverified,80,English,A msngo's skin is being peeled.,mFCf8lLXrUc_25_35
+690,mFCf8lLXrUc,25,35,214410,unverified,28,English,A person is peeling a mango.,mFCf8lLXrUc_25_35
+691,mFCf8lLXrUc,25,35,169605,unverified,18,English,Someone is peeling a mango.,mFCf8lLXrUc_25_35
+692,mFCf8lLXrUc,25,35,169072,unverified,181,English,A woman is slicing a mango.,mFCf8lLXrUc_25_35
+693,mFCf8lLXrUc,25,35,617730,unverified,21,English,A person is peeling mangos.,mFCf8lLXrUc_25_35
+694,mFCf8lLXrUc,25,35,896610,unverified,40,English,A woman peels a mango.,mFCf8lLXrUc_25_35
+695,mFCf8lLXrUc,25,35,467982,unverified,171,English,A person trying to remove the covering of a mango through a knife.,mFCf8lLXrUc_25_35
+696,mFCf8lLXrUc,25,35,393505,unverified,28,English,A person shows how to peel and cut a mango.,mFCf8lLXrUc_25_35
+697,mFCf8lLXrUc,25,35,443302,unverified,47,English,A woman is cutting mango.,mFCf8lLXrUc_25_35
+698,mFCf8lLXrUc,25,35,641510,unverified,102,English,A woman shows how to remove mango cover.,mFCf8lLXrUc_25_35
+699,mFCf8lLXrUc,25,35,309959,unverified,16,English,Someone peeled a fruit.,mFCf8lLXrUc_25_35
+700,mFCf8lLXrUc,25,35,777087,unverified,29,English,Someone is peeling a mango.,mFCf8lLXrUc_25_35
+701,mFCf8lLXrUc,25,35,130040,unverified,117,English,cutting the mango,mFCf8lLXrUc_25_35
+702,mFCf8lLXrUc,25,35,762891,unverified,19,English,The cook is peeling a mango.,mFCf8lLXrUc_25_35
+703,mFCf8lLXrUc,25,35,643761,unverified,26,English,A woman is peeling a mango.,mFCf8lLXrUc_25_35
+704,mFCf8lLXrUc,25,35,675312,unverified,50,English,A woman is peeling a mango.,mFCf8lLXrUc_25_35
+705,mFCf8lLXrUc,25,35,965537,unverified,220,English,"Making mangoes still sweeter, removing the upper skin",mFCf8lLXrUc_25_35
+706,mFCf8lLXrUc,25,35,585381,unverified,38,English,Someone is peeling a mango.,mFCf8lLXrUc_25_35
+707,mFCf8lLXrUc,25,35,553931,unverified,16,English,Someone peeled a fruit.,mFCf8lLXrUc_25_35
+722,6eokrw6_bjU,1,9,878566,clean,26,English,A woman is firing a rifle.,6eokrw6_bjU_1_9
+723,6eokrw6_bjU,1,9,257003,clean,75,English,A girl is spraying the field with a gun.,6eokrw6_bjU_1_9
+724,6eokrw6_bjU,1,9,435773,clean,22,English,A girl is shooting a gun multiple times.,6eokrw6_bjU_1_9
+725,6eokrw6_bjU,1,9,922727,clean,21,English,A woman is shooting a gun.,6eokrw6_bjU_1_9
+726,6eokrw6_bjU,1,9,275759,clean,53,English,A woman is firing with an assault rifle.,6eokrw6_bjU_1_9
+727,6eokrw6_bjU,1,9,825347,clean,13,English,A woman is shooting off a gun.,6eokrw6_bjU_1_9
+728,6eokrw6_bjU,1,9,374994,clean,25,English,A woman is firing an assault rifle into a hill.,6eokrw6_bjU_1_9
+729,6eokrw6_bjU,1,9,297776,clean,28,English,A woman fires an assault rifle.,6eokrw6_bjU_1_9
+730,6eokrw6_bjU,1,9,155632,clean,19,English,A girl is firing an automatic rifle.,6eokrw6_bjU_1_9
+731,6eokrw6_bjU,1,9,772960,clean,467,English,A woman standing on grassland is holding a rifle and shooting a series of bullets in the air.,6eokrw6_bjU_1_9
+732,6eokrw6_bjU,1,9,550906,clean,44,English,a woman taking pices on the farm,6eokrw6_bjU_1_9
+733,6eokrw6_bjU,1,9,309959,clean,17,English,The girl shot the semi-automatic rifle.,6eokrw6_bjU_1_9
+734,6eokrw6_bjU,1,9,762891,clean,31,English,The woman is shooting a machine gun.,6eokrw6_bjU_1_9
+735,6eokrw6_bjU,1,9,215924,clean,28,English,A girl shots a gun.,6eokrw6_bjU_1_9
+736,6eokrw6_bjU,1,9,625932,clean,50,English,A woman is shooting an automatic rifle.,6eokrw6_bjU_1_9
+737,6eokrw6_bjU,1,9,553931,clean,20,English,A girl shot an automatice rifle in the field.,6eokrw6_bjU_1_9
+738,6eokrw6_bjU,1,9,371782,unverified,58,English,A girl is shooting with the gun.,6eokrw6_bjU_1_9
+739,6eokrw6_bjU,1,9,599728,unverified,146,English,A girl is standing and continuosly  firing,6eokrw6_bjU_1_9
+740,6eokrw6_bjU,1,9,977945,unverified,210,English,A girl with gun,6eokrw6_bjU_1_9
+741,6eokrw6_bjU,1,9,339451,unverified,78,English,A woman is firing a gun.,6eokrw6_bjU_1_9
+742,6eokrw6_bjU,1,9,418656,unverified,65,English,A woman is firing with AR15 gun.,6eokrw6_bjU_1_9
+743,6eokrw6_bjU,1,9,741585,unverified,24,English,A woman is standing in a field shooting a gun.,6eokrw6_bjU_1_9
+744,6eokrw6_bjU,1,9,309415,unverified,24,English,a woman shooting a shot gun,6eokrw6_bjU_1_9
+745,6eokrw6_bjU,1,9,919506,unverified,79,English,a woman shooting gun.,6eokrw6_bjU_1_9
+746,6eokrw6_bjU,1,9,266771,unverified,35,English,A women is firing with the gun,6eokrw6_bjU_1_9
+747,6eokrw6_bjU,1,9,705358,unverified,210,English,one girl taking training of shooting,6eokrw6_bjU_1_9
+748,6eokrw6_bjU,1,9,475845,unverified,63,English,she is shooting,6eokrw6_bjU_1_9
+749,6eokrw6_bjU,1,9,120198,unverified,46,English,woman firing with a machine gun,6eokrw6_bjU_1_9
+750,6eokrw6_bjU,1,9,638934,unverified,10,English,A girl is firing a gun outside.,6eokrw6_bjU_1_9
+751,6eokrw6_bjU,1,9,675312,unverified,119,English,A girl is firing a semi automatic weapon.,6eokrw6_bjU_1_9
+752,6eokrw6_bjU,1,9,963466,unverified,41,English,A girl is firing gun.,6eokrw6_bjU_1_9
+753,6eokrw6_bjU,1,9,169605,unverified,33,English,A girl is shooting a gun,6eokrw6_bjU_1_9
+754,6eokrw6_bjU,1,9,467982,unverified,131,English,A lady doing some sort of shooting practise in a lonely place.,6eokrw6_bjU_1_9
+755,6eokrw6_bjU,1,9,279187,unverified,163,English,A lady shoots with a sten gun.,6eokrw6_bjU_1_9
+756,6eokrw6_bjU,1,9,906649,unverified,33,English,A woman fires a gun,6eokrw6_bjU_1_9
+757,6eokrw6_bjU,1,9,662670,unverified,71,English,A woman in a grassy field is shooting a machine gun.,6eokrw6_bjU_1_9
+758,6eokrw6_bjU,1,9,373663,unverified,34,English,A woman is firing a gun.,6eokrw6_bjU_1_9
+759,6eokrw6_bjU,1,9,585381,unverified,129,English,A woman is firing a machine gun.,6eokrw6_bjU_1_9
+760,6eokrw6_bjU,1,9,346578,unverified,26,English,A woman is firing an AR 15 assault rifle.,6eokrw6_bjU_1_9
+761,6eokrw6_bjU,1,9,257511,unverified,26,English,A woman is shooting a gun in a grassy field.,6eokrw6_bjU_1_9
+762,6eokrw6_bjU,1,9,633378,unverified,40,English,A woman is shooting a gun.,6eokrw6_bjU_1_9
+763,6eokrw6_bjU,1,9,155632,unverified,18,English,A woman is shooting a gun.,6eokrw6_bjU_1_9
+764,6eokrw6_bjU,1,9,108687,unverified,34,English,A woman is shooting a gun.,6eokrw6_bjU_1_9
+765,6eokrw6_bjU,1,9,682611,unverified,52,English,A woman is shooting a large gun.,6eokrw6_bjU_1_9
+766,6eokrw6_bjU,1,9,707318,unverified,32,English,A woman is shooting a machine gun.,6eokrw6_bjU_1_9
+767,6eokrw6_bjU,1,9,281652,unverified,31,English,A woman is shooting standing in grass.,6eokrw6_bjU_1_9
+768,6eokrw6_bjU,1,9,502429,unverified,74,English,A woman is shooting with gun.,6eokrw6_bjU_1_9
+769,6eokrw6_bjU,1,9,169072,unverified,39,English,A woman is shooting.,6eokrw6_bjU_1_9
+770,6eokrw6_bjU,1,9,313410,unverified,33,English,A woman is standing in a field shooting a gun.,6eokrw6_bjU_1_9
+771,6eokrw6_bjU,1,9,394339,unverified,51,English,A woman is taking the training of gun.,6eokrw6_bjU_1_9
+772,6eokrw6_bjU,1,9,749155,unverified,77,English,A woman practicing shooting with a gun,6eokrw6_bjU_1_9
+773,6eokrw6_bjU,1,9,617730,unverified,24,English,A woman shoots a gun outside.,6eokrw6_bjU_1_9
+774,6eokrw6_bjU,1,9,130040,unverified,35,English,a woman with a gun,6eokrw6_bjU_1_9
+775,6eokrw6_bjU,1,9,236993,unverified,69,English,A LADY SHOOTING WITH MACHINE GUN,6eokrw6_bjU_1_9
+776,6eokrw6_bjU,1,9,965612,unverified,49,English,she is check with the gun,6eokrw6_bjU_1_9
+777,6eokrw6_bjU,1,9,132982,unverified,119,English,A girl with a Machine gun.,6eokrw6_bjU_1_9
+801,E2r6nnkwl0c,6,18,825347,clean,15,English,A group of boys are jumping into a river.,E2r6nnkwl0c_6_18
+802,E2r6nnkwl0c,6,18,922727,clean,34,English,A group of people are jumping into water.,E2r6nnkwl0c_6_18
+803,E2r6nnkwl0c,6,18,280252,clean,50,English,Men are diving into the river.,E2r6nnkwl0c_6_18
+804,E2r6nnkwl0c,6,18,275759,clean,58,English,Men are jumping into water from a bridge.,E2r6nnkwl0c_6_18
+805,E2r6nnkwl0c,6,18,169605,clean,22,English,Men are swimming.,E2r6nnkwl0c_6_18
+806,E2r6nnkwl0c,6,18,760882,clean,18,English,Men jump in a river.,E2r6nnkwl0c_6_18
+807,E2r6nnkwl0c,6,18,155632,clean,24,English,People are jumping in a river.,E2r6nnkwl0c_6_18
+808,E2r6nnkwl0c,6,18,374994,clean,26,English,People are jumping off a bridge into water.,E2r6nnkwl0c_6_18
+809,E2r6nnkwl0c,6,18,617730,clean,106,English,Several men are jumping off a bridge into a creek.,E2r6nnkwl0c_6_18
+810,E2r6nnkwl0c,6,18,297776,clean,37,English,Several men jump off a small bridge into a pool of water.,E2r6nnkwl0c_6_18
+811,E2r6nnkwl0c,6,18,807872,clean,39,English,Several people play in a river.,E2r6nnkwl0c_6_18
+812,E2r6nnkwl0c,6,18,682611,clean,76,English,Some young men dive and jump into the water.,E2r6nnkwl0c_6_18
+813,E2r6nnkwl0c,6,18,309959,clean,19,English,The men dived into the water from the bridge.,E2r6nnkwl0c_6_18
+814,E2r6nnkwl0c,6,18,762891,clean,30,English,The men jumped into the river.,E2r6nnkwl0c_6_18
+815,E2r6nnkwl0c,6,18,553931,clean,20,English,The people dived off the rock bridge.,E2r6nnkwl0c_6_18
+816,E2r6nnkwl0c,6,18,159786,clean,269,English,Three men jump off of a small bridge.,E2r6nnkwl0c_6_18
+817,E2r6nnkwl0c,6,18,252681,clean,91,English,"Two men dive into the water, where two others are already swimming.",E2r6nnkwl0c_6_18
+818,E2r6nnkwl0c,6,18,132982,unverified,56,English,Men are diving in the river.,E2r6nnkwl0c_6_18
+819,E2r6nnkwl0c,6,18,833861,unverified,59,English,They are jumping into the river,E2r6nnkwl0c_6_18
+820,E2r6nnkwl0c,6,18,965612,unverified,62,English,the boys are jumping in to lake,E2r6nnkwl0c_6_18
+821,E2r6nnkwl0c,6,18,707318,unverified,12,English,Men jump into a river.,E2r6nnkwl0c_6_18
+822,E2r6nnkwl0c,6,18,470073,unverified,38,English,boys are playing in the water,E2r6nnkwl0c_6_18
+823,E2r6nnkwl0c,6,18,318570,unverified,89,English,a man is jumping on the water.,E2r6nnkwl0c_6_18
+824,E2r6nnkwl0c,6,18,829808,unverified,68,English,3 persons diving in to the river.,E2r6nnkwl0c_6_18
+825,E2r6nnkwl0c,6,18,418656,unverified,53,English,People were jumping into the water.,E2r6nnkwl0c_6_18
+826,E2r6nnkwl0c,6,18,741585,unverified,21,English,People are jumping into the water.,E2r6nnkwl0c_6_18
+827,E2r6nnkwl0c,6,18,281652,unverified,33,English,All people are jumping into water.,E2r6nnkwl0c_6_18
+828,E2r6nnkwl0c,6,18,325852,unverified,54,English,People dive into the water.,E2r6nnkwl0c_6_18
+829,E2r6nnkwl0c,6,18,373663,unverified,48,English,Some men are diving into water.,E2r6nnkwl0c_6_18
+830,E2r6nnkwl0c,6,18,309415,unverified,32,English,A group of men are diving into a lake.,E2r6nnkwl0c_6_18
+831,E2r6nnkwl0c,6,18,169072,unverified,40,English,Men are diving into water.,E2r6nnkwl0c_6_18
+832,E2r6nnkwl0c,6,18,749155,unverified,65,English,A group of men jumping into water,E2r6nnkwl0c_6_18
+833,E2r6nnkwl0c,6,18,394339,unverified,946,English,some people taking bath,E2r6nnkwl0c_6_18
+834,E2r6nnkwl0c,6,18,408179,unverified,22,English,Men are diving in the water.,E2r6nnkwl0c_6_18
+835,E2r6nnkwl0c,6,18,575032,unverified,294,English,He is jumping in water  very well.,E2r6nnkwl0c_6_18
+836,E2r6nnkwl0c,6,18,554590,unverified,28,English,People jump into a creek.,E2r6nnkwl0c_6_18
+850,n016q1w8Q30,2,11,550906,clean,27,English,Cards are being shuffled.,n016q1w8Q30_2_11
+851,n016q1w8Q30,2,11,772960,clean,221,English,A man is holding a pack of playing cards and rubbing the top most card which then disappears!,n016q1w8Q30_2_11
+852,n016q1w8Q30,2,11,135621,clean,61,English,A man is displaying a deck of cards in his hands and he palms the top card in the deck.,n016q1w8Q30_2_11
+853,n016q1w8Q30,2,11,625932,clean,34,English,A man is doing a card trick.,n016q1w8Q30_2_11
+854,n016q1w8Q30,2,11,760882,clean,16,English,A man is doing card tricks.,n016q1w8Q30_2_11
+855,n016q1w8Q30,2,11,275759,clean,35,English,A man is doing some trick with play cards.,n016q1w8Q30_2_11
+856,n016q1w8Q30,2,11,252681,clean,21,English,A person is doing card tricks.,n016q1w8Q30_2_11
+857,n016q1w8Q30,2,11,374994,clean,17,English,A person is performing a card trick.,n016q1w8Q30_2_11
+858,n016q1w8Q30,2,11,297776,clean,35,English,A person manipulates a deck of playing cards.,n016q1w8Q30_2_11
+859,n016q1w8Q30,2,11,295615,clean,66,English,An individual handles a deck of cards.,n016q1w8Q30_2_11
+860,n016q1w8Q30,2,11,553931,clean,24,English,Someone did a card trick.,n016q1w8Q30_2_11
+861,n016q1w8Q30,2,11,309959,clean,16,English,Someone did a card trick.,n016q1w8Q30_2_11
+862,n016q1w8Q30,2,11,155632,clean,30,English,Someone is doing a card trick.,n016q1w8Q30_2_11
+863,n016q1w8Q30,2,11,922727,clean,31,English,Someone is holding a deck of cards.,n016q1w8Q30_2_11
+864,n016q1w8Q30,2,11,762891,clean,21,English,The man is doing card tricks.,n016q1w8Q30_2_11
+865,n016q1w8Q30,2,11,750723,unverified,47,English,a women is playing the card,n016q1w8Q30_2_11
+866,n016q1w8Q30,2,11,919506,unverified,43,English,a man doing magic with cards.,n016q1w8Q30_2_11
+867,n016q1w8Q30,2,11,418656,unverified,49,English,A man is doing magic with cards.,n016q1w8Q30_2_11
+868,n016q1w8Q30,2,11,371782,unverified,128,English,A man is playing with the cards.,n016q1w8Q30_2_11
+869,n016q1w8Q30,2,11,475845,unverified,56,English,he is faking on the game,n016q1w8Q30_2_11
+870,n016q1w8Q30,2,11,977945,unverified,169,English,men playing cards game.,n016q1w8Q30_2_11
+871,n016q1w8Q30,2,11,599728,unverified,54,English,person showing something with cards,n016q1w8Q30_2_11
+872,n016q1w8Q30,2,11,857450,unverified,76,English,"sleight of hand magic card trick, revealed!",n016q1w8Q30_2_11
+873,n016q1w8Q30,2,11,741585,unverified,28,English,Someone is doing tricks with a deck of cards.,n016q1w8Q30_2_11
+874,n016q1w8Q30,2,11,279187,unverified,227,English,A card being flipped which has 7 seven hearts on one side and king of spades on another side.,n016q1w8Q30_2_11
+875,n016q1w8Q30,2,11,600230,unverified,14,English,A man does card tricks.,n016q1w8Q30_2_11
+876,n016q1w8Q30,2,11,467982,unverified,87,English,A man doing some sort of magic tricks with the playing cards.,n016q1w8Q30_2_11
+877,n016q1w8Q30,2,11,675312,unverified,72,English,A man is demonstrating a card trick.,n016q1w8Q30_2_11
+878,n016q1w8Q30,2,11,108687,unverified,29,English,A man is doing a card trick.,n016q1w8Q30_2_11
+879,n016q1w8Q30,2,11,281652,unverified,42,English,A man is doing magic by cards.,n016q1w8Q30_2_11
+880,n016q1w8Q30,2,11,591613,unverified,55,English,A man is doing magic with play cards.,n016q1w8Q30_2_11
+881,n016q1w8Q30,2,11,801055,unverified,89,English,A man is doing some magic by cards.,n016q1w8Q30_2_11
+882,n016q1w8Q30,2,11,503851,unverified,23,English,A man is performing a card trick.,n016q1w8Q30_2_11
+883,n016q1w8Q30,2,11,963466,unverified,44,English,A man is showing hand magic.,n016q1w8Q30_2_11
+884,n016q1w8Q30,2,11,502429,unverified,47,English,A man is showing magic with playing cards.,n016q1w8Q30_2_11
+885,n016q1w8Q30,2,11,947723,unverified,61,English,A man is slowly demonstrating a card trick.,n016q1w8Q30_2_11
+886,n016q1w8Q30,2,11,130040,unverified,42,English,A MAN MAGIC WITH A CARD,n016q1w8Q30_2_11
+887,n016q1w8Q30,2,11,318570,unverified,238,English,a man shuffle the cards.,n016q1w8Q30_2_11
+888,n016q1w8Q30,2,11,707318,unverified,189,English,A person does a magic trick with cards.,n016q1w8Q30_2_11
+889,n016q1w8Q30,2,11,157374,unverified,28,English,A person is demonstrating how to do card tricks.,n016q1w8Q30_2_11
+890,n016q1w8Q30,2,11,617730,unverified,23,English,A person is doing magic tricks with cards.,n016q1w8Q30_2_11
+891,n016q1w8Q30,2,11,813710,unverified,2680,English,A person is performing some card tricks.,n016q1w8Q30_2_11
+892,n016q1w8Q30,2,11,304047,unverified,53,English,A person is shoufling the cards.,n016q1w8Q30_2_11
+893,n016q1w8Q30,2,11,563584,unverified,35,English,Man preforms sleight of hand with cards.,n016q1w8Q30_2_11
+894,n016q1w8Q30,2,11,132126,unverified,48,English,Playing a card trick.,n016q1w8Q30_2_11
+895,n016q1w8Q30,2,11,958230,unverified,104,English,Sleight of hand card tricks.,n016q1w8Q30_2_11
+896,n016q1w8Q30,2,11,705358,unverified,203,English,"Sleight of Hand magic card trick, revealed",n016q1w8Q30_2_11
+897,n016q1w8Q30,2,11,169072,unverified,38,English,Someone is doing tricks with cards.,n016q1w8Q30_2_11
+898,n016q1w8Q30,2,11,682611,unverified,94,English,Someone is holding a deck of cards and performing a card trick.,n016q1w8Q30_2_11
+899,n016q1w8Q30,2,11,638934,unverified,17,English,Someone is performing a trick with a deck of cards.,n016q1w8Q30_2_11
+900,n016q1w8Q30,2,11,343525,unverified,763,English,Someone is playing a card trick.,n016q1w8Q30_2_11
+901,n016q1w8Q30,2,11,169605,unverified,17,English,Someone is playing with cards,n016q1w8Q30_2_11
+902,n016q1w8Q30,2,11,373663,unverified,42,English,Someone playing with cards.,n016q1w8Q30_2_11
+903,n016q1w8Q30,2,11,728894,unverified,61,English,Someone playing with cards.,n016q1w8Q30_2_11
+904,n016q1w8Q30,2,11,394339,unverified,44,English,The man showing the tricks of playing card.,n016q1w8Q30_2_11
+905,n016q1w8Q30,2,11,637661,unverified,28,English,This video shows a nice card trick,n016q1w8Q30_2_11
+906,n016q1w8Q30,2,11,497691,unverified,47,English,A MAN IS PLAYING A CARD.,n016q1w8Q30_2_11
+907,n016q1w8Q30,2,11,965612,unverified,97,English,the person is playing with cards game,n016q1w8Q30_2_11
+908,n016q1w8Q30,2,11,132982,unverified,63,English,A Man Showing Hand magic card.,n016q1w8Q30_2_11
+915,rQuNYxNmA6M,0,4,605851,unverified,51,English,A baseball player throwing ball.,rQuNYxNmA6M_0_4
+916,rQuNYxNmA6M,0,4,358551,unverified,462,English,A baseball players in practice on public place.,rQuNYxNmA6M_0_4
+917,rQuNYxNmA6M,0,4,339657,unverified,50,English,A baseball team is practicing.,rQuNYxNmA6M_0_4
+918,rQuNYxNmA6M,0,4,940411,unverified,24,English,A boy is playing baseball.,rQuNYxNmA6M_0_4
+919,rQuNYxNmA6M,0,4,577910,unverified,108,English,A boy is throwing a baseball in a ball game.,rQuNYxNmA6M_0_4
+920,rQuNYxNmA6M,0,4,297776,unverified,35,English,A couple of baseball players toss a baseball.,rQuNYxNmA6M_0_4
+921,rQuNYxNmA6M,0,4,147492,unverified,50,English,A couple walks toward three baseball players.,rQuNYxNmA6M_0_4
+922,rQuNYxNmA6M,0,4,677094,unverified,26,English,A group of men pretending playing baseball to fool people for fun.,rQuNYxNmA6M_0_4
+923,rQuNYxNmA6M,0,4,374994,unverified,26,English,A man is throwing a baseball to another man.,rQuNYxNmA6M_0_4
+924,rQuNYxNmA6M,0,4,976577,unverified,51,English,a team playing base ball,rQuNYxNmA6M_0_4
+925,rQuNYxNmA6M,0,4,762891,unverified,46,English,A trio of players are playing baseball in the park.,rQuNYxNmA6M_0_4
+926,rQuNYxNmA6M,0,4,577435,unverified,76,English,An amateur baseball team warming up in a parking lot.,rQuNYxNmA6M_0_4
+927,rQuNYxNmA6M,0,4,331517,unverified,44,English,Baseball players practice the catches in ground during a sunny day.,rQuNYxNmA6M_0_4
+928,rQuNYxNmA6M,0,4,223451,unverified,64,English,Guys are practicing cricket.,rQuNYxNmA6M_0_4
+929,rQuNYxNmA6M,0,4,860525,unverified,85,English,IN VIDEO BOYS ARE PLAYING BASSBALL .,rQuNYxNmA6M_0_4
+930,rQuNYxNmA6M,0,4,701594,unverified,350,English,It is a funny baseeball video,rQuNYxNmA6M_0_4
+931,rQuNYxNmA6M,0,4,326192,unverified,74,English,Men are playing simulated baseball in the park.,rQuNYxNmA6M_0_4
+932,rQuNYxNmA6M,0,4,227134,unverified,42,English,Men are throwing a baseball.,rQuNYxNmA6M_0_4
+933,rQuNYxNmA6M,0,4,625932,unverified,52,English,Men are tossing a baseball to each other.,rQuNYxNmA6M_0_4
+934,rQuNYxNmA6M,0,4,135141,unverified,63,English,Some Asian men are practicing baseball on the sidewalk in a park.,rQuNYxNmA6M_0_4
+935,rQuNYxNmA6M,0,4,777192,unverified,27,English,Some guys practicing playing baseball.,rQuNYxNmA6M_0_4
+936,rQuNYxNmA6M,0,4,597080,unverified,101,English,Some people are throwing a baseball.,rQuNYxNmA6M_0_4
+937,rQuNYxNmA6M,0,4,230966,unverified,112,English,some person are practicing a baseball.,rQuNYxNmA6M_0_4
+938,rQuNYxNmA6M,0,4,257003,unverified,74,English,Some youngsters are playing baseball in a park.,rQuNYxNmA6M_0_4
+939,rQuNYxNmA6M,0,4,553931,unverified,47,English,The pitcher tossed the ball back and forth to a player.,rQuNYxNmA6M_0_4
+940,rQuNYxNmA6M,0,4,318376,unverified,252,English,The players are practising baseball on streets.,rQuNYxNmA6M_0_4
+941,rQuNYxNmA6M,0,4,289993,unverified,42,English,Three baseball players are practicing.,rQuNYxNmA6M_0_4
+942,rQuNYxNmA6M,0,4,615204,unverified,109,English,Three baseball players are warming up in a public park.,rQuNYxNmA6M_0_4
+943,rQuNYxNmA6M,0,4,844963,unverified,113,English,Three boys are practicing baseball.,rQuNYxNmA6M_0_4
+944,rQuNYxNmA6M,0,4,155632,unverified,69,English,Three men are playing baseball in the park.,rQuNYxNmA6M_0_4
+945,rQuNYxNmA6M,0,4,929658,unverified,56,English,Three men are playing baseball.,rQuNYxNmA6M_0_4
+946,rQuNYxNmA6M,0,4,642498,unverified,33,English,Three men are playing baseball.,rQuNYxNmA6M_0_4
+947,rQuNYxNmA6M,0,4,696912,unverified,71,English,Three men are practicing base ball in the park,rQuNYxNmA6M_0_4
+948,rQuNYxNmA6M,0,4,135621,unverified,106,English,Three men in baseball uniforms are practicing when two people dressed in black walk up.,rQuNYxNmA6M_0_4
+949,rQuNYxNmA6M,0,4,215924,unverified,81,English,Three people are getting ready to play baseball.,rQuNYxNmA6M_0_4
+950,rQuNYxNmA6M,0,4,381885,unverified,72,English,Two baseball players are playing catch.,rQuNYxNmA6M_0_4
+951,rQuNYxNmA6M,0,4,588702,unverified,238,English,Two man play throw and catch with ball.,rQuNYxNmA6M_0_4
+952,rQuNYxNmA6M,0,4,772960,unverified,220,English,Two men are passing a baseball between each other while a man behind them is swinging a baseball bat.,rQuNYxNmA6M_0_4
+953,rQuNYxNmA6M,0,4,767086,unverified,45,English,Two men are playing catch.,rQuNYxNmA6M_0_4
+954,rQuNYxNmA6M,0,4,502429,unverified,64,English,Two men are playing with the ball.,rQuNYxNmA6M_0_4
+955,rQuNYxNmA6M,0,4,335164,unverified,50,English,Two men were playing catch with a baseball.,rQuNYxNmA6M_0_4
+956,rQuNYxNmA6M,0,4,338851,unverified,67,English,Two white males throw a baseball back and forth while an Asian couple watches.,rQuNYxNmA6M_0_4
+957,rQuNYxNmA6M,0,4,459361,unverified,90,English,Video shows gags.,rQuNYxNmA6M_0_4
+958,rQuNYxNmA6M,0,4,550906,unverified,121,English,Three baseball team players are practicing their sport while interrupting a walk way in the park.,rQuNYxNmA6M_0_4
+961,ByGspTdA1ug,16,24,326919,unverified,76,English,A person is sliding a cat across the floor.,ByGspTdA1ug_16_24
+962,ByGspTdA1ug,16,24,310111,unverified,36,English,cat is very happy.,ByGspTdA1ug_16_24
+963,ByGspTdA1ug,16,24,696912,unverified,66,English,The girl is pushing the sleeping cat along the floor towards the wall.,ByGspTdA1ug_16_24
+964,ByGspTdA1ug,16,24,605851,unverified,99,English,A man pushing a cat through floor,ByGspTdA1ug_16_24
+965,ByGspTdA1ug,16,24,389584,unverified,31,English,A man wipes the floor with a nonchalant cat.,ByGspTdA1ug_16_24
+966,ByGspTdA1ug,16,24,257003,unverified,102,English,A person is pushing a sleeping cat along the corridor.,ByGspTdA1ug_16_24
+967,ByGspTdA1ug,16,24,109153,unverified,17,English,A women is sliding a cat,ByGspTdA1ug_16_24
+968,ByGspTdA1ug,16,24,948244,unverified,46,English,A man is pushing a cat around the wood floor.,ByGspTdA1ug_16_24
+969,ByGspTdA1ug,16,24,976577,unverified,113,English,boy is cleaning floor with the cat,ByGspTdA1ug_16_24
+970,ByGspTdA1ug,16,24,860525,unverified,177,English,A MAN IS SWEEPING A CAT ON FLOOR.,ByGspTdA1ug_16_24
+971,ByGspTdA1ug,16,24,794301,unverified,79,English,A man is shifting a cat over the floor.,ByGspTdA1ug_16_24
+972,ByGspTdA1ug,16,24,160707,unverified,42,English,A cat enjoying its ride sleeping on the fine floor,ByGspTdA1ug_16_24
+973,ByGspTdA1ug,16,24,135621,unverified,93,English,There is a man pushing a cat across a wooden floor while the cat lies limp.,ByGspTdA1ug_16_24
+974,ByGspTdA1ug,16,24,502429,unverified,163,English,A man is sliding a cat on the floor.,ByGspTdA1ug_16_24
+975,ByGspTdA1ug,16,24,147587,unverified,169,English,A person is playing with a cat.,ByGspTdA1ug_16_24
+976,ByGspTdA1ug,16,24,230966,unverified,185,English,Boy cleaning the floor with the cat.,ByGspTdA1ug_16_24
+977,ByGspTdA1ug,16,24,922727,unverified,57,English,A cat is being pushed across the floor by a man.,ByGspTdA1ug_16_24
+978,ByGspTdA1ug,16,24,275759,unverified,73,English,A person is dragging a cat over the floor.,ByGspTdA1ug_16_24
+979,ByGspTdA1ug,16,24,387131,unverified,26,English,This man is pushing a cat across the floor.,ByGspTdA1ug_16_24
+980,ByGspTdA1ug,16,24,455199,unverified,56,English,cat is very happy,ByGspTdA1ug_16_24
+981,ByGspTdA1ug,16,24,297776,unverified,36,English,A person pushes a cat across a wood floor.,ByGspTdA1ug_16_24
+982,ByGspTdA1ug,16,24,147492,unverified,65,English,Someone slides a cat across a wooden floor.,ByGspTdA1ug_16_24
+983,ByGspTdA1ug,16,24,844963,unverified,284,English,A man is sliding a cat across a polished floor.,ByGspTdA1ug_16_24
+984,ByGspTdA1ug,16,24,155632,unverified,100,English,A man dusts his wood floor with his cat.,ByGspTdA1ug_16_24
+985,ByGspTdA1ug,16,24,223451,unverified,46,English,A guy is pushing a cat lying on the floor.,ByGspTdA1ug_16_24
+986,ByGspTdA1ug,16,24,358551,unverified,121,English,A man is moving his cat on the floor.,ByGspTdA1ug_16_24
+987,ByGspTdA1ug,16,24,505632,unverified,72,English,"The owner of the cat, used the cat to mop the floor.",ByGspTdA1ug_16_24
+988,ByGspTdA1ug,16,24,612493,unverified,108,English,A women is stressing acat.,ByGspTdA1ug_16_24
+989,ByGspTdA1ug,16,24,277558,unverified,54,English,A lady is dragging a lying cat,ByGspTdA1ug_16_24
+990,ByGspTdA1ug,16,24,295615,unverified,65,English,"A man is pushing a cat, who is laying on his side, across the floor and down the hall.",ByGspTdA1ug_16_24
+991,ByGspTdA1ug,16,24,481414,unverified,54,English,A person is sliding a cat across the floor.,ByGspTdA1ug_16_24
+992,ByGspTdA1ug,16,24,285931,unverified,21,English,A man pushes a cat across the floor like a dust mop.,ByGspTdA1ug_16_24
+993,ByGspTdA1ug,16,24,294348,unverified,176,English,The young man is sliding a cat across the wooden floor.,ByGspTdA1ug_16_24
+994,ByGspTdA1ug,16,24,615204,unverified,44,English,A man is pushing a cat along the floor.,ByGspTdA1ug_16_24
+995,ByGspTdA1ug,16,24,963466,unverified,138,English,A man is playing with the cat.,ByGspTdA1ug_16_24
+996,ByGspTdA1ug,16,24,535287,unverified,278,English,A man pushes a cat across a hardwood floor.,ByGspTdA1ug_16_24
+997,ByGspTdA1ug,16,24,625932,unverified,95,English,A cat is being slid around the floor.,ByGspTdA1ug_16_24
+998,ByGspTdA1ug,16,24,553931,unverified,30,English,A man is pushing a cat along the wooden floor.,ByGspTdA1ug_16_24
+1017,-_hbPLsZvvo,323,328,651813,clean,9,English,A man is arranging sushi.,-_hbPLsZvvo_323_328
+1018,-_hbPLsZvvo,323,328,374994,clean,33,English,A person is arranging food on a dish.,-_hbPLsZvvo_323_328
+1019,-_hbPLsZvvo,323,328,825347,clean,16,English,A person is making a hot dog piece look like an octopus.,-_hbPLsZvvo_323_328
+1020,-_hbPLsZvvo,323,328,159786,clean,363,English,A woman arranges a food dish.,-_hbPLsZvvo_323_328
+1021,-_hbPLsZvvo,323,328,807872,clean,21,English,A woman cuts a squid.,-_hbPLsZvvo_323_328
+1022,-_hbPLsZvvo,323,328,682611,clean,94,English,A woman is adding eyes to squash cut into ghost-like pieces.,-_hbPLsZvvo_323_328
+1023,-_hbPLsZvvo,323,328,181773,clean,291,English,A woman is arranging some food and decorating it.,-_hbPLsZvvo_323_328
+1024,-_hbPLsZvvo,323,328,275759,clean,34,English,A woman is decorating some food.,-_hbPLsZvvo_323_328
+1025,-_hbPLsZvvo,323,328,617730,clean,82,English,A woman is preparing a plate of food.,-_hbPLsZvvo_323_328
+1026,-_hbPLsZvvo,323,328,155632,clean,20,English,A woman is preparing food.,-_hbPLsZvvo_323_328
+1027,-_hbPLsZvvo,323,328,772960,clean,335,English,"A woman places sesame seeds as eyes, on an octopus-shaped sausage placed on a small white tray.",-_hbPLsZvvo_323_328
+1028,-_hbPLsZvvo,323,328,297776,clean,78,English,A woman prepares a sushi tray.,-_hbPLsZvvo_323_328
+1029,-_hbPLsZvvo,323,328,615204,clean,58,English,Sesame seed eyes are added to a sausage cut to look like an octopus.,-_hbPLsZvvo_323_328
+1030,-_hbPLsZvvo,323,328,135621,clean,86,English,Someone is decorating a cut piece of sausage with eyes.,-_hbPLsZvvo_323_328
+1031,-_hbPLsZvvo,323,328,922727,clean,50,English,Someone is decorating food on a plate.,-_hbPLsZvvo_323_328
+1032,-_hbPLsZvvo,323,328,553931,clean,24,English,Someone made the sushi look like an octopus.,-_hbPLsZvvo_323_328
+1033,-_hbPLsZvvo,323,328,309959,clean,25,English,The lady made the sushi look like an octopus.,-_hbPLsZvvo_323_328
+1034,-_hbPLsZvvo,323,328,762891,clean,21,English,The woman is garnishing vegetables.,-_hbPLsZvvo_323_328
+1035,-_hbPLsZvvo,323,328,132982,unverified,110,English,"A woman garnish a Bento dish in the serving plate,",-_hbPLsZvvo_323_328
+1036,-_hbPLsZvvo,323,328,840635,unverified,39,English,A woman is putting a vegetable on a plate.,-_hbPLsZvvo_323_328
+1037,-_hbPLsZvvo,323,328,965612,unverified,136,English,the person is showing how to make bento,-_hbPLsZvvo_323_328
+1038,-_hbPLsZvvo,323,328,906649,unverified,49,English,A woman prepares a bento box.,-_hbPLsZvvo_323_328
+1039,-_hbPLsZvvo,323,328,707318,unverified,21,English,A person puts seeds on a hot dog.,-_hbPLsZvvo_323_328
+1040,-_hbPLsZvvo,323,328,318570,unverified,459,English,A person is placing the black thing on the food.,-_hbPLsZvvo_323_328
+1041,-_hbPLsZvvo,323,328,418656,unverified,56,English,A lady is decorating her dish.,-_hbPLsZvvo_323_328
+1042,-_hbPLsZvvo,323,328,741585,unverified,62,English,Someone put two sausages on a platter.,-_hbPLsZvvo_323_328
+1043,-_hbPLsZvvo,323,328,373663,unverified,462,English,Someone is preparing some food.,-_hbPLsZvvo_323_328
+1044,-_hbPLsZvvo,323,328,813710,unverified,46,English,A woman is preparing some bento.,-_hbPLsZvvo_323_328
+1045,-_hbPLsZvvo,323,328,919506,unverified,33,English,a man coking.,-_hbPLsZvvo_323_328
+1046,-_hbPLsZvvo,323,328,169072,unverified,49,English,somebody is decorating vegetables.,-_hbPLsZvvo_323_328
+1047,-_hbPLsZvvo,323,328,834331,unverified,43,English,A video on How to make Bento.,-_hbPLsZvvo_323_328
+1048,-_hbPLsZvvo,323,328,394339,unverified,62,English,A person making bento,-_hbPLsZvvo_323_328
+1049,-_hbPLsZvvo,323,328,357342,unverified,57,English,A woman plates an asian dish.,-_hbPLsZvvo_323_328
+1050,-_hbPLsZvvo,323,328,977945,unverified,180,English,A person making  Bento,-_hbPLsZvvo_323_328
+1051,-_hbPLsZvvo,323,328,947723,unverified,59,English,A woman adds eyes to a piece of food to make it look like an octopus.,-_hbPLsZvvo_323_328
+1052,-_hbPLsZvvo,323,328,161407,unverified,185,English,A plate with full of fruits are displayed,-_hbPLsZvvo_323_328
+1053,-_hbPLsZvvo,323,328,762891,unverified,18,English,The woman is garnishing the plate.,-_hbPLsZvvo_323_328
+1054,-_hbPLsZvvo,323,328,909965,unverified,330,English,How to make bento japanese boxed lunch.,-_hbPLsZvvo_323_328
+1074,6t0BpjwYKco,217,229,682611,clean,61,English,A woman seasons both sides of a pork chop.,6t0BpjwYKco_217_229
+1075,6t0BpjwYKco,217,229,760882,clean,22,English,A woman is seasoning a pork chop.,6t0BpjwYKco_217_229
+1076,6t0BpjwYKco,217,229,707318,clean,16,English,A woman seasons a pork chop.,6t0BpjwYKco_217_229
+1077,6t0BpjwYKco,217,229,135621,clean,53,English,A woman is grinding black pepper onto a pork chop.,6t0BpjwYKco_217_229
+1078,6t0BpjwYKco,217,229,280252,clean,47,English,A woman is spreading spices on a meat.,6t0BpjwYKco_217_229
+1079,6t0BpjwYKco,217,229,275759,clean,35,English,A woman is sprinkling pepper and salt over pork meat.,6t0BpjwYKco_217_229
+1080,6t0BpjwYKco,217,229,374994,clean,13,English,A woman is seasoning meat.,6t0BpjwYKco_217_229
+1081,6t0BpjwYKco,217,229,297776,clean,37,English,A woman seasons a piece of raw meat.,6t0BpjwYKco_217_229
+1082,6t0BpjwYKco,217,229,373663,clean,23,English,A woman is seasoning some meat.,6t0BpjwYKco_217_229
+1083,6t0BpjwYKco,217,229,155632,clean,104,English,A woman is seasoning a pork chop.,6t0BpjwYKco_217_229
+1084,6t0BpjwYKco,217,229,169605,clean,15,English,A woman is seasoning steak.,6t0BpjwYKco_217_229
+1085,6t0BpjwYKco,217,229,617730,clean,19,English,A woman is seasoning a piece of meat.,6t0BpjwYKco_217_229
+1086,6t0BpjwYKco,217,229,896610,clean,34,English,A woman is sprinkling salt and pepper on a pork loin.,6t0BpjwYKco_217_229
+1087,6t0BpjwYKco,217,229,309959,clean,14,English,The lady seasoned the meatn.,6t0BpjwYKco_217_229
+1088,6t0BpjwYKco,217,229,762891,clean,22,English,The woman is seasoning the pork chop.,6t0BpjwYKco_217_229
+1089,6t0BpjwYKco,217,229,675312,clean,59,English,A woman is grinding salt and pepper onto a pork chop.,6t0BpjwYKco_217_229
+1090,6t0BpjwYKco,217,229,807872,clean,20,English,A woman seasons some meat.,6t0BpjwYKco_217_229
+1091,6t0BpjwYKco,217,229,553931,clean,14,English,The lady seasoned the meat.,6t0BpjwYKco_217_229
+1092,6t0BpjwYKco,217,229,965612,unverified,64,English,the women is cooking,6t0BpjwYKco_217_229
+1093,6t0BpjwYKco,217,229,949760,unverified,59,English,A woman is spreading the pepper in the fish,6t0BpjwYKco_217_229
+1094,6t0BpjwYKco,217,229,318570,unverified,141,English,a lady is putting the salt on the meat.,6t0BpjwYKco_217_229
+1095,6t0BpjwYKco,217,229,257511,unverified,22,English,A woman is adding seasonings to a piece of meat.,6t0BpjwYKco_217_229
+1096,6t0BpjwYKco,217,229,741585,unverified,25,English,A woman is putting spices on a piece of meat.,6t0BpjwYKco_217_229
+1097,6t0BpjwYKco,217,229,599728,unverified,216,English,a lady making a dish in the kitchen,6t0BpjwYKco_217_229
+1098,6t0BpjwYKco,217,229,373663,unverified,25,English,A woman is seasoning some meat.,6t0BpjwYKco_217_229
+1099,6t0BpjwYKco,217,229,120123,unverified,44,English,Cooking with the dog show demonstrates how to make Japanese curry with tomato.,6t0BpjwYKco_217_229
+1100,6t0BpjwYKco,217,229,424928,unverified,36,English,A woman is seasoning a piece of meat.,6t0BpjwYKco_217_229
+1101,6t0BpjwYKco,217,229,919506,unverified,22,English,a woman coking.,6t0BpjwYKco_217_229
+1102,6t0BpjwYKco,217,229,617730,unverified,27,English,A woman is seasoning some meat.,6t0BpjwYKco_217_229
+1103,6t0BpjwYKco,217,229,762891,unverified,13,English,The woman is seasoning the port chop.,6t0BpjwYKco_217_229
+1104,6t0BpjwYKco,217,229,750723,unverified,51,English,anyone is making dish,6t0BpjwYKco_217_229
+1105,6t0BpjwYKco,217,229,525230,unverified,50,English,clear detail for making katsu curry,6t0BpjwYKco_217_229
+1106,6t0BpjwYKco,217,229,501877,unverified,21,English,A woman is seasoning meat.,6t0BpjwYKco_217_229
+1114,MTkGPfMRXtc,5,21,548844,unverified,32,English,Rubber band trouble.,MTkGPfMRXtc_5_21
+1115,MTkGPfMRXtc,5,21,326919,unverified,62,English,A woman puts a rubberband on a stack of files.,MTkGPfMRXtc_5_21
+1116,MTkGPfMRXtc,5,21,310111,unverified,66,English,a women package in covers.,MTkGPfMRXtc_5_21
+1117,MTkGPfMRXtc,5,21,696912,unverified,54,English,The lady is tying up a bundle of files with a string.,MTkGPfMRXtc_5_21
+1118,MTkGPfMRXtc,5,21,605851,unverified,94,English,A woman tying bundle of papers.,MTkGPfMRXtc_5_21
+1119,MTkGPfMRXtc,5,21,389584,unverified,35,English,A woman ties together a stack of papers.,MTkGPfMRXtc_5_21
+1120,MTkGPfMRXtc,5,21,257003,unverified,114,English,A woman is packing some packets with rubber band.,MTkGPfMRXtc_5_21
+1121,MTkGPfMRXtc,5,21,109153,unverified,49,English,A women is trying to put a rubber band around a dozen of big envelopes,MTkGPfMRXtc_5_21
+1122,MTkGPfMRXtc,5,21,976577,unverified,47,English,girl tying bundle of envelopes,MTkGPfMRXtc_5_21
+1123,MTkGPfMRXtc,5,21,860525,unverified,83,English,A WOMAN IS TYING BUNNDELS OF ENVELOPS.,MTkGPfMRXtc_5_21
+1124,MTkGPfMRXtc,5,21,794301,unverified,121,English,A woman is wrapping a cord around a pack of letters.,MTkGPfMRXtc_5_21
+1125,MTkGPfMRXtc,5,21,160707,unverified,53,English,A office assistant trying to bundle up the letters,MTkGPfMRXtc_5_21
+1126,MTkGPfMRXtc,5,21,135621,unverified,108,English,A woman is tying together a bundle of manila envelopes.,MTkGPfMRXtc_5_21
+1127,MTkGPfMRXtc,5,21,502429,unverified,183,English,A woman is tying a bundle of envelops with string.,MTkGPfMRXtc_5_21
+1128,MTkGPfMRXtc,5,21,147587,unverified,67,English,A lady is binding packets.,MTkGPfMRXtc_5_21
+1129,MTkGPfMRXtc,5,21,230966,unverified,118,English,She is trying to tying up the bundles of envelope.,MTkGPfMRXtc_5_21
+1130,MTkGPfMRXtc,5,21,922727,unverified,54,English,A woman is putting a rubber band on mail.,MTkGPfMRXtc_5_21
+1131,MTkGPfMRXtc,5,21,275759,unverified,100,English,A woman is tying files.,MTkGPfMRXtc_5_21
+1132,MTkGPfMRXtc,5,21,387131,unverified,41,English,The woman is tying envelopes together with a rubber band.,MTkGPfMRXtc_5_21
+1133,MTkGPfMRXtc,5,21,455199,unverified,90,English,a women ready in package,MTkGPfMRXtc_5_21
+1134,MTkGPfMRXtc,5,21,297776,unverified,47,English,A woman ties a bundle of envelopes together.,MTkGPfMRXtc_5_21
+1135,MTkGPfMRXtc,5,21,147492,unverified,56,English,A woman in an office put a rubber band around a stack of items.,MTkGPfMRXtc_5_21
+1136,MTkGPfMRXtc,5,21,649657,unverified,646,English,people working in lab,MTkGPfMRXtc_5_21
+1137,MTkGPfMRXtc,5,21,844963,unverified,131,English,A woman is binding a few packetts with a rubber band.,MTkGPfMRXtc_5_21
+1138,MTkGPfMRXtc,5,21,155632,unverified,77,English,A woman wraps a stack of envelopes with a rubber band.,MTkGPfMRXtc_5_21
+1139,MTkGPfMRXtc,5,21,399763,unverified,61,English,a woman tying a bundle of covers,MTkGPfMRXtc_5_21
+1140,MTkGPfMRXtc,5,21,223451,unverified,130,English,A lady is tying a bundle of parcels.,MTkGPfMRXtc_5_21
+1141,MTkGPfMRXtc,5,21,358551,unverified,102,English,A woman is binding some of files.,MTkGPfMRXtc_5_21
+1142,MTkGPfMRXtc,5,21,505632,unverified,81,English,"The lady is stacking pile of covers, with the help of thread.",MTkGPfMRXtc_5_21
+1143,MTkGPfMRXtc,5,21,550906,unverified,81,English,A woman struggling to wrap a stack of envelopes at a office.,MTkGPfMRXtc_5_21
+1144,MTkGPfMRXtc,5,21,612493,unverified,78,English,A woman is banding documents with rubber.,MTkGPfMRXtc_5_21
+1145,MTkGPfMRXtc,5,21,295615,unverified,110,English,A woman is putting an elastic around a bundle of mail.,MTkGPfMRXtc_5_21
+1146,MTkGPfMRXtc,5,21,481414,unverified,110,English,A woman is attempting to properly fit a string over a stack of documents.,MTkGPfMRXtc_5_21
+1147,MTkGPfMRXtc,5,21,285931,unverified,28,English,A woman binds a stack of papers.,MTkGPfMRXtc_5_21
+1148,MTkGPfMRXtc,5,21,294348,unverified,108,English,The woman is tying envelopes together.,MTkGPfMRXtc_5_21
+1149,MTkGPfMRXtc,5,21,615204,unverified,212,English,A woman puts a big rubber band around a stack of envelops and files.,MTkGPfMRXtc_5_21
+1150,MTkGPfMRXtc,5,21,963466,unverified,698,English,A woman is binding packets.,MTkGPfMRXtc_5_21
+1151,MTkGPfMRXtc,5,21,625932,unverified,95,English,A woman is trying to bundle together several pieces of mail.,MTkGPfMRXtc_5_21
+1152,MTkGPfMRXtc,5,21,804759,unverified,69,English,A woman is having difficulty bundling some business envelopes,MTkGPfMRXtc_5_21
+1153,MTkGPfMRXtc,5,21,553931,unverified,39,English,A lady is rubber banding a pile of padded envelopes for mailing.,MTkGPfMRXtc_5_21
+1161,aeA-HN7BMdo,34,41,550906,clean,48,English,a women cutting broccoli up,aeA-HN7BMdo_34_41
+1162,aeA-HN7BMdo,34,41,297776,clean,48,English,A person cuts up a stalk of broccoli.,aeA-HN7BMdo_34_41
+1163,aeA-HN7BMdo,34,41,159786,clean,193,English,A woman chops a head of broccoli.,aeA-HN7BMdo_34_41
+1164,aeA-HN7BMdo,34,41,807872,clean,18,English,A woman cuts up broccoli.,aeA-HN7BMdo_34_41
+1165,aeA-HN7BMdo,34,41,772960,clean,133,English,A woman first cuts the stem and then chops a broccoli flowerette into smaller pieces.,aeA-HN7BMdo_34_41
+1166,aeA-HN7BMdo,34,41,374994,clean,26,English,A woman is chopping broccoli with a knife.,aeA-HN7BMdo_34_41
+1167,aeA-HN7BMdo,34,41,651813,clean,15,English,A woman is chopping broccoli.,aeA-HN7BMdo_34_41
+1168,aeA-HN7BMdo,34,41,825347,clean,20,English,A woman is chopping broccoli.,aeA-HN7BMdo_34_41
+1169,aeA-HN7BMdo,34,41,252681,clean,14,English,A woman is chopping broccoli.,aeA-HN7BMdo_34_41
+1170,aeA-HN7BMdo,34,41,135621,clean,85,English,A woman is cutting a stalk of broccoli into small pieces.,aeA-HN7BMdo_34_41
+1171,aeA-HN7BMdo,34,41,280252,clean,75,English,A woman is cutting broccoli with a knife.,aeA-HN7BMdo_34_41
+1172,aeA-HN7BMdo,34,41,155632,clean,24,English,A woman is cutting broccoli.,aeA-HN7BMdo_34_41
+1173,aeA-HN7BMdo,34,41,760882,clean,33,English,A woman is cutting broccoli.,aeA-HN7BMdo_34_41
+1174,aeA-HN7BMdo,34,41,615204,clean,31,English,A woman is cutting broccoli.,aeA-HN7BMdo_34_41
+1175,aeA-HN7BMdo,34,41,435773,clean,47,English,A woman is cutting up a stalk of broccoli.,aeA-HN7BMdo_34_41
+1176,aeA-HN7BMdo,34,41,275759,clean,37,English,A woman is slicing cauliflower.,aeA-HN7BMdo_34_41
+1177,aeA-HN7BMdo,34,41,922727,clean,29,English,Broccoli is being chopped.,aeA-HN7BMdo_34_41
+1178,aeA-HN7BMdo,34,41,553931,clean,21,English,The lady chopped onions and broccoli.,aeA-HN7BMdo_34_41
+1179,aeA-HN7BMdo,34,41,309959,clean,17,English,The lady cut up broccoli.,aeA-HN7BMdo_34_41
+1180,aeA-HN7BMdo,34,41,762891,clean,25,English,The woman is cutting broccoli.,aeA-HN7BMdo_34_41
+1181,aeA-HN7BMdo,34,41,108687,unverified,31,English,A woman is cutting food.,aeA-HN7BMdo_34_41
+1182,aeA-HN7BMdo,34,41,840635,unverified,90,English,A woman is cutting up some brocolli.,aeA-HN7BMdo_34_41
+1183,aeA-HN7BMdo,34,41,965612,unverified,57,English,the women is cooking with dogs,aeA-HN7BMdo_34_41
+1184,aeA-HN7BMdo,34,41,343525,unverified,26,English,Someone is slicing broccoli.,aeA-HN7BMdo_34_41
+1185,aeA-HN7BMdo,34,41,799001,unverified,16,English,A woman is cutting broccoli.,aeA-HN7BMdo_34_41
+1186,aeA-HN7BMdo,34,41,807741,unverified,188,English,the lady is cooking with the dog.,aeA-HN7BMdo_34_41
+1187,aeA-HN7BMdo,34,41,707318,unverified,16,English,A woman chops broccoli.,aeA-HN7BMdo_34_41
+1188,aeA-HN7BMdo,34,41,318570,unverified,148,English,a lady is cutting the cauliflower using knife.,aeA-HN7BMdo_34_41
+1189,aeA-HN7BMdo,34,41,371782,unverified,110,English,A man is cooking egg.,aeA-HN7BMdo_34_41
+1190,aeA-HN7BMdo,34,41,418656,unverified,64,English,A lady is cutting a vegetable.,aeA-HN7BMdo_34_41
+1191,aeA-HN7BMdo,34,41,257511,unverified,33,English,A woman is cutting broccoli using a knife.,aeA-HN7BMdo_34_41
+1192,aeA-HN7BMdo,34,41,497691,unverified,188,English,A MAN IS CUTTING SOME VEGETABLE.,aeA-HN7BMdo_34_41
+1193,aeA-HN7BMdo,34,41,741585,unverified,22,English,A woman is cutting up some brocoli.,aeA-HN7BMdo_34_41
+1194,aeA-HN7BMdo,34,41,157374,unverified,37,English,A woman is cutting broccoli into florets.,aeA-HN7BMdo_34_41
+1195,aeA-HN7BMdo,34,41,599728,unverified,2441,English,preparing something,aeA-HN7BMdo_34_41
+1196,aeA-HN7BMdo,34,41,373663,unverified,187,English,Woman chopping broccoli.,aeA-HN7BMdo_34_41
+1197,aeA-HN7BMdo,34,41,309415,unverified,26,English,a woman cutting up vegatables,aeA-HN7BMdo_34_41
+1198,aeA-HN7BMdo,34,41,844963,unverified,88,English,A woman is chopping a brocolli.,aeA-HN7BMdo_34_41
+1199,aeA-HN7BMdo,34,41,705358,unverified,391,English,A persong is slicing some vegetables with knife,aeA-HN7BMdo_34_41
+1200,aeA-HN7BMdo,34,41,169072,unverified,44,English,A woman is cutting some vegetables.,aeA-HN7BMdo_34_41
+1201,aeA-HN7BMdo,34,41,467982,unverified,151,English,a lady cutting a broccoli inorder to make some meal.,aeA-HN7BMdo_34_41
+1202,aeA-HN7BMdo,34,41,394339,unverified,1578,English,a man cooking in the kitchen and a doggy sit near him,aeA-HN7BMdo_34_41
+1203,aeA-HN7BMdo,34,41,948158,unverified,51,English,A lady is chopping broccoli.,aeA-HN7BMdo_34_41
+1204,aeA-HN7BMdo,34,41,295615,unverified,61,English,A woman cuts up a stalk of broccoli.,aeA-HN7BMdo_34_41
+1205,aeA-HN7BMdo,34,41,130040,unverified,19,English,a man cooking his kichen,aeA-HN7BMdo_34_41
+1206,aeA-HN7BMdo,34,41,977945,unverified,233,English,A men Cooking with Dog,aeA-HN7BMdo_34_41
+1207,aeA-HN7BMdo,34,41,947723,unverified,41,English,A woman is cutting broccoli.,aeA-HN7BMdo_34_41
+1208,aeA-HN7BMdo,34,41,279187,unverified,22,English,A man cuts off the stalk of broccoli and makes smaller pieces broccoli.,aeA-HN7BMdo_34_41
+1209,aeA-HN7BMdo,34,41,963466,unverified,43,English,A lady is cutting vegetable.,aeA-HN7BMdo_34_41
