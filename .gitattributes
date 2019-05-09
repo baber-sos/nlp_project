@@ -3,3 +3,7 @@ temporal.json filter=lfs diff=lfs merge=lfs -text
 motion_attention.pt filter=lfs diff=lfs merge=lfs -text
 multi_modal_attention.pt filter=lfs diff=lfs merge=lfs -text
 temporal_attention.pt filter=lfs diff=lfs merge=lfs -text
+n_motion.json filter=lfs diff=lfs merge=lfs -text
+nval_temporal.json filter=lfs diff=lfs merge=lfs -text
+val_motion.json filter=lfs diff=lfs merge=lfs -text
+val_temporal.json filter=lfs diff=lfs merge=lfs -text
