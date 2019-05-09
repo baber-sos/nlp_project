@@ -13,7 +13,7 @@ device = torch.device("cuda:2" if torch.cuda.is_available() else "cpu");
 dev_2 = torch.device("cuda:3" if torch.cuda.is_available() else "cpu");
 
 class custom_ds(data.Dataset):
-    def __init__(self, video_file, csv_path, emb_file, batch_size, \
+    def __init__(self, video_file, csv_path, emb_file, vocab_file, batch_size, \
         temporal_file='temporal.json', motion_file='motion.json', trainable=False):
         super(custom_ds, self).__init__();
         self.batch_size = batch_size;
@@ -40,36 +40,46 @@ class custom_ds(data.Dataset):
         
         self.vid_to_ix = {self.index_to_vid[i] : i for i in range(len(self.index_to_vid))};
         
-        self.index_to_word = []
-        data = english_captions['Description']
-        data = data.str.lower()
-        data = list(data)
-        new = data
-        words = [];
+        with open(vocab_file, 'rb') as vfile:
+            self.word_to_index = pickle.load(vfile);
+        ix_to_word = {self.word_to_index[i] : i for i in self.word_to_index.keys()};
+        self.index_to_word = [];
+        for i in range(len(self.word_to_index)):
+            self.index_to_word.append(ix_to_word[i]);
+        self.word_to_index = {self.index_to_word[i] : int(i) for i in range(len(self.index_to_word))}
+
         self.max_caption_len = 0;
-        for item in new:
-            try:
-                self.max_caption_len = max(self.max_caption_len, \
-                    len(word_tokenize(self.remove(item))) + 2);
-                words += (word_tokenize(item));
-            except:
-                continue
+        for item in self.trained['Description']:
+            self.max_caption_len = max(self.max_caption_len, len(word_tokenize(item))+2);
+        # data = english_captions['Description']
+        # data = data.str.lower()
+        # data = list(data)
+        # new = data
+        # words = [];
+        # self.max_caption_len = 0;
+        # for item in new:
+        #     try:
+        #         self.max_caption_len = max(self.max_caption_len, \
+        #             len(word_tokenize(self.remove(item))) + 2);
+        #         words += (word_tokenize(item));
+        #     except:
+        #         continue
 
-        for i in range(len(words)):
-            words[i] = self.remove(words[i]);
+        # for i in range(len(words)):
+        #     words[i] = self.remove(words[i]);
 
-        print("Number of Words: ", len(words));
-        self.index_to_word = list(OrderedDict.fromkeys(words));
-        self.index_to_word.append("<sos>");
-        self.index_to_word.append("<eos>");
-        self.index_to_word.append("<pad>");
+        # print("Number of Words: ", len(words));
+        # self.index_to_word = list(OrderedDict.fromkeys(words));
+        # self.index_to_word.append("<sos>");
+        # self.index_to_word.append("<eos>");
+        # self.index_to_word.append("<pad>");
         # for item in words:
         #     for word in item:
         #         word = self.remove(word);
         #         if word not in self.index_to_word:
         #             self.index_to_word.append(word);
         
-        self.word_to_index = {self.index_to_word[i]:i for i in range(len(self.index_to_word))};
+        # self.word_to_index = {self.index_to_word[i]:i for i in range(len(self.index_to_word))};
 
         embedding_map = pickle.load(open(emb_file, 'rb'));
         print("Index to Word Length: ", len(self.index_to_word));
@@ -157,10 +167,17 @@ class custom_ds(data.Dataset):
         video_name = self.trained['NewID'].iloc[idx] + '.avi';
         # print("Video Name: ", video_name);
         caption = word_tokenize(self.trained['Description'].iloc[idx]);
+
         for i in range(len(caption)):
-            caption[i] = self.remove(caption[i]);
+            this_word = self.remove(caption[i].lower());
+            if this_word in self.index_to_word:
+                caption[i] = this_word;
+            else:
+                caption[i] = '<unk>'
         caption = ['<sos>'] + caption + ['<eos>'];
         caption = [x.lower() for x in caption];
+        
+        # print(caption);
         seq_ind = torch.tensor([self.word_to_index[x] for x in caption]);
         difference = self.max_caption_len - len(seq_ind);
         vid_ind = self.vid_to_ix[video_name];
@@ -168,10 +185,13 @@ class custom_ds(data.Dataset):
         target = seq_ind.clone()
         if self.batch_size > 1:
             target = torch.cat((target, \
-                torch.tensor([self.word_to_index['<pad>'] for i in range(difference)])));
+                torch.tensor([int(self.word_to_index['<pad>']) for i in range(difference)], 
+                dtype=torch.long)));
             emb_zeros = torch.zeros(difference, self.embedding_dim);
+
         ix_embeddings = torch.cat(((self.embeddings(seq_ind), emb_zeros)));
         # del emb_zeros, seq_ind;
+        # print(caption);
         return ix_embeddings, self.temp_feat_matrix[vid_ind],\
             self.motion_feat_matrix[vid_ind], len(caption), self.temp_ix_to_len[vid_ind],\
                 self.motion_ix_to_len[vid_ind], target, video_name;

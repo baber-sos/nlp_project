@@ -8,7 +8,7 @@ import copy
 
 device = torch.device("cuda:2" if torch.cuda.is_available() else "cpu");
 
-prediction_set = custom_ds('val_input', 'video_corpus.csv', 'embedding.pkl', batch_size=1, \
+prediction_set = custom_ds('val_input', 'video_corpus.csv', 'embedding.pkl', 'vocab.pkl', batch_size=1, \
     temporal_file='val_temporal.json', motion_file='val_motion.json');
 
 embedding_dim = 300;
@@ -36,6 +36,10 @@ frame_attn_model.load_state_dict(torch.load("temporal_attention.pt"));
 motion_attn_model.load_state_dict(torch.load("motion_attention.pt"));
 mmodel.load_state_dict(torch.load("multi_modal_attention.pt"));
 
+#frame_attn_model = frame_attn_model.to(device);
+#motion_attn_model = motion_attn_model.to(device);
+#mmodel = mmodel.to(device);
+
 val_loss_epoch = 0.0;
 val_set = len(data_loader);
 count = 0;
@@ -46,7 +50,9 @@ max_seqlen = 20;
 #cost, next state, tracker, previous
 
 print("Predicted,Actual,Video_Name")
-
+# pf = open("npredicted.txt", 'w');
+# af = open("nactual_cap.txt", 'w');
+# vf = open("nvf.txt", 'w');
 for batch in data_loader:
     state_queue = [(0, count, str_ix, [0])]
     heapq.heapify(state_queue);
@@ -57,7 +63,7 @@ for batch in data_loader:
     mmodel.zero_grad();
     
     _, temp_feats, mot_feats, seq_lens, temp_lens, mot_lens, targets, vid_name = batch;
-    print("Video Name: ", vid_name);
+    #print("Video Name: ", vid_name);
     act_cap = "";
     for i in targets.view(-1):
         if int(i) == prediction_set.word_to_index['<pad>']:
@@ -67,8 +73,8 @@ for batch in data_loader:
         if int(i) == prediction_set.word_to_index['<eos>']:
             continue;
         act_cap = act_cap + ' ' + prediction_set.index_to_word[int(i)];
-    print("Actual Caption: ", act_cap);
-    continue;
+    #print("Actual Caption: ", act_cap);
+    #continue;
     #exit();
     max_slen = torch.max(seq_lens);
     max_tlen = torch.max(temp_lens);
@@ -79,10 +85,10 @@ for batch in data_loader:
     while len(state_queue) > 0:
         cur_state = heapq.heappop(state_queue);
 
-        if cur_state[2] == prediction_set.word_to_index["<eos>"]:
-            break;
-        #elif len(cur_state[3]) > 15:
+        # if cur_state[2] == prediction_set.word_to_index["<eos>"]:
         #    break;
+        if len(cur_state[3]) > 10:
+            break;
 
         visited.append(cur_state[2]);
         # print("Cur Index and Word: ", prediction_set.index_to_word[cur_state[2]]);
@@ -117,6 +123,9 @@ for batch in data_loader:
         predicted_ind = cur_state[3][:-1];
     predicted = " ".join([prediction_set.index_to_word[i] for i in predicted_ind]);
     print(predicted + "," + act_cap + "," + str(vid_name[0]));
+    # pf.write(predicted + '\n');
+    # af.write(act_cap + '\n');
+    # vf.write(vid_name[0] + '\n');
     #print("Actual: ", act_cap[1:-1]);
     #break;
     # print("End of Iteration!");
