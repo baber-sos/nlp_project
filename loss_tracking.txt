@@ -1,0 +1,67 @@
+Train Loss for Epoch 1: 9.877616
+Validation Loss for Epoch 1: 11.134103
+--------------
+Train Loss for Epoch 2: 8.982218
+Validation Loss for Epoch 2: 9.108789
+--------------
+Train Loss for Epoch 3: 8.050566
+Validation Loss for Epoch 3: 8.496908
+--------------
+Train Loss for Epoch 4: 7.482167
+Validation Loss for Epoch 4: 7.731470
+--------------
+Train Loss for Epoch 1: 7.720078
+--------------
+Train Loss for Epoch 2: 7.162830
+--------------
+Train Loss for Epoch 3: 6.601303
+--------------
+Train Loss for Epoch 4: 6.163201
+--------------
+Train Loss for Epoch 5: 5.844079
+--------------
+Train Loss for Epoch 1: 6.037212
+--------------
+Train Loss for Epoch 2: 5.738516
+--------------
+Train Loss for Epoch 3: 5.399661
+--------------
+Train Loss for Epoch 4: 5.112437
+--------------
+********************************
+Train Loss for Epoch 1: 24.777840
+Validation Loss for Epoch 1: 25.557716
+--------------
+Train Loss for Epoch 2: 14.619113
+Validation Loss for Epoch 2: 24.490063
+--------------
+Train Loss for Epoch 3: 11.360419
+Validation Loss for Epoch 3: 23.160612
+--------------
+Train Loss for Epoch 4: 9.466854
+Validation Loss for Epoch 4: 22.296158
+--------------
+Train Loss for Epoch 5: 8.280017
+Validation Loss for Epoch 5: 21.540600
+--------------
+Train Loss for Epoch 6: 7.415531
+Validation Loss for Epoch 6: 21.127083
+--------------
+Train Loss for Epoch 1: 7.593555
+Validation Loss for Epoch 1: 21.572187
+--------------
+Train Loss for Epoch 1: 7.604793
+Validation Loss for Epoch 1: 21.789396
+--------------
+Train Loss for Epoch 2: 6.812855
+Validation Loss for Epoch 2: 21.330793
+--------------
+Train Loss for Epoch 3: 6.134923
+Validation Loss for Epoch 3: 21.214039
+--------------
+Train Loss for Epoch 4: 5.684520
+Validation Loss for Epoch 4: 21.056709
+--------------
+Train Loss for Epoch 5: 5.337707
+Validation Loss for Epoch 5: 20.641266
+--------------
